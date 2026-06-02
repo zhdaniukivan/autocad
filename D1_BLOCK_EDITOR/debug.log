@@ -460,3 +460,1295 @@
 2026-06-01 18:02:35,701 - INFO -   Тип: full, isBottom=True, isTop=True
 2026-06-01 18:02:35,701 - INFO -   Width=650.0, Height=2475.0
 2026-06-01 18:02:35,701 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:02:25,658 - INFO - Попытка подключения к AutoCAD...
+2026-06-02 10:02:25,706 - INFO - ✅ Подключено к запущенному AutoCAD
+2026-06-02 10:03:32,758 - INFO - Найдено динамических блоков: 13
+2026-06-02 10:03:40,952 - INFO - === Детальная информация о блоках ===
+2026-06-02 10:03:41,181 - INFO - Блок: HeightsForCabs
+2026-06-02 10:03:41,181 - INFO -   Тип: special, isBottom=False, isTop=False
+2026-06-02 10:03:41,181 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:03:41,181 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:03:41,628 - INFO - Блок: Hood_Cyclone_SC51424
+2026-06-02 10:03:41,628 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:03:41,628 - INFO -   Width=600.0, Height=850.0
+2026-06-02 10:03:41,628 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:03:41,940 - INFO - Блок: upper_filler
+2026-06-02 10:03:41,940 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:03:41,940 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:03:41,940 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:03:42,207 - INFO - Блок: upper_cab_swing
+2026-06-02 10:03:42,207 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:03:42,207 - INFO -   Width=480.0, Height=850.0
+2026-06-02 10:03:42,207 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:03:42,476 - INFO - Блок: upper_cab_swing
+2026-06-02 10:03:42,476 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:03:42,476 - INFO -   Width=610.0, Height=850.0
+2026-06-02 10:03:42,476 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:03:42,582 - INFO - Блок: countertop_by
+2026-06-02 10:03:42,582 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:03:42,582 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:03:42,582 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:03:42,742 - INFO - Блок: countertop20
+2026-06-02 10:03:42,742 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:03:42,742 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:03:42,742 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:03:43,151 - INFO - Блок: btm_cab_dwr
+2026-06-02 10:03:43,151 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:03:43,151 - INFO -   Width=480.0, Height=793.0
+2026-06-02 10:03:43,151 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:03:43,560 - INFO - Блок: btm_cab_swing
+2026-06-02 10:03:43,560 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:03:43,560 - INFO -   Width=610.0, Height=793.0
+2026-06-02 10:03:43,560 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:03:43,913 - INFO - Блок: fridge_cab_divider
+2026-06-02 10:03:43,913 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:03:43,913 - INFO -   Width=650.0, Height=0.0
+2026-06-02 10:03:43,913 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:03:44,027 - INFO - Блок: Floor_13mm
+2026-06-02 10:03:44,027 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:03:44,027 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:03:44,027 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:03:44,309 - INFO - Блок: Kick_plate
+2026-06-02 10:03:44,309 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:03:44,309 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:03:44,309 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:03:44,836 - INFO - Блок: freestanding_fridge_cab
+2026-06-02 10:03:44,836 - INFO -   Тип: full, isBottom=True, isTop=True
+2026-06-02 10:03:44,836 - INFO -   Width=650.0, Height=2375.0
+2026-06-02 10:03:44,836 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:04:26,181 - INFO - === Применение ширины к нижней линии: target=1840.0 ===
+2026-06-02 10:04:27,236 - INFO - Нижняя линия: 1740.0 из ['btm_cab_dwr: 480.0', 'btm_cab_swing: 610.0', 'freestanding_fridge_cab: 650.0']
+2026-06-02 10:04:27,426 - INFO - Расширяемые блоки (ChangeWidth=1): 2 из 3
+2026-06-02 10:04:27,426 - INFO - Нужно увеличить на 100.0, инкремент на блок: 50.000
+2026-06-02 10:04:27,459 - INFO -   btm_cab_dwr: 480.0 → 530.0
+2026-06-02 10:04:27,633 - DEBUG - Установлено Width = 530.0000000000002 для блока btm_cab_dwr
+2026-06-02 10:04:27,708 - INFO -   btm_cab_swing: 610.0 → 660.0
+2026-06-02 10:04:27,986 - DEBUG - Установлено Width = 659.9999999999998 для блока btm_cab_swing
+2026-06-02 10:04:28,700 - INFO - Результат: 1740.0 → 1840.0
+2026-06-02 10:04:28,750 - INFO - Найдено динамических блоков: 13
+2026-06-02 10:04:36,870 - INFO - === Детальная информация о блоках ===
+2026-06-02 10:04:37,093 - INFO - Блок: HeightsForCabs
+2026-06-02 10:04:37,094 - INFO -   Тип: special, isBottom=False, isTop=False
+2026-06-02 10:04:37,094 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:04:37,094 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:04:37,528 - INFO - Блок: Hood_Cyclone_SC51424
+2026-06-02 10:04:37,528 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:04:37,528 - INFO -   Width=600.0, Height=850.0
+2026-06-02 10:04:37,528 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:04:37,842 - INFO - Блок: upper_filler
+2026-06-02 10:04:37,842 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:04:37,842 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:04:37,842 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:04:38,108 - INFO - Блок: upper_cab_swing
+2026-06-02 10:04:38,108 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:04:38,108 - INFO -   Width=480.0, Height=850.0
+2026-06-02 10:04:38,108 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:04:38,376 - INFO - Блок: upper_cab_swing
+2026-06-02 10:04:38,376 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:04:38,376 - INFO -   Width=610.0, Height=850.0
+2026-06-02 10:04:38,376 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:04:38,470 - INFO - Блок: countertop_by
+2026-06-02 10:04:38,470 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:04:38,470 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:04:38,470 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:04:38,639 - INFO - Блок: countertop20
+2026-06-02 10:04:38,639 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:04:38,640 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:04:38,640 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:04:39,058 - INFO - Блок: btm_cab_dwr
+2026-06-02 10:04:39,058 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:04:39,058 - INFO -   Width=530.0, Height=793.0
+2026-06-02 10:04:39,058 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:04:39,472 - INFO - Блок: btm_cab_swing
+2026-06-02 10:04:39,472 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:04:39,472 - INFO -   Width=660.0, Height=793.0
+2026-06-02 10:04:39,472 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:04:39,829 - INFO - Блок: fridge_cab_divider
+2026-06-02 10:04:39,829 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:04:39,829 - INFO -   Width=650.0, Height=0.0
+2026-06-02 10:04:39,829 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:04:39,946 - INFO - Блок: Floor_13mm
+2026-06-02 10:04:39,946 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:04:39,946 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:04:39,946 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:04:40,221 - INFO - Блок: Kick_plate
+2026-06-02 10:04:40,221 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:04:40,221 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:04:40,221 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:04:40,760 - INFO - Блок: freestanding_fridge_cab
+2026-06-02 10:04:40,760 - INFO -   Тип: full, isBottom=True, isTop=True
+2026-06-02 10:04:40,760 - INFO -   Width=650.0, Height=2375.0
+2026-06-02 10:04:40,760 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:04:46,456 - INFO - === Обновление спецэлементов ===
+2026-06-02 10:04:47,419 - INFO - Чистые нижние: 1190.0 из ['btm_cab_dwr: 530.0', 'btm_cab_swing: 660.0']
+2026-06-02 10:04:48,508 - INFO - Чистые верхние: 1690.0 из ['Hood_Cyclone_SC51424: 600.0', 'upper_filler: 0.0', 'upper_cab_swing: 480.0', 'upper_cab_swing: 610.0']
+2026-06-02 10:04:48,508 - INFO - Чистые нижние (столешница/плинтус): 1190.0
+2026-06-02 10:04:48,508 - INFO - Чистые верхние (верхняя планка): 1690.0
+2026-06-02 10:04:49,070 - DEBUG - Установлено upper_filler_w = 1690.0 для блока upper_filler
+2026-06-02 10:04:49,083 - INFO -   upper_filler.upper_filler_w = 1690.0
+2026-06-02 10:04:49,286 - DEBUG - Установлено Recalculated_Width = 1690.0 для блока upper_filler
+2026-06-02 10:04:49,302 - INFO -   upper_filler.Recalculated_Width = 1690.0 (top)
+2026-06-02 10:04:49,809 - DEBUG - Установлено countertop_w = 1190.0 для блока countertop20
+2026-06-02 10:04:49,819 - INFO -   countertop20.countertop_w = 1190.0
+2026-06-02 10:04:50,792 - DEBUG - Установлено kick_plate_w = 1190.0 для блока Kick_plate
+2026-06-02 10:04:50,801 - INFO -   Kick_plate.kick_plate_w = 1190.0
+2026-06-02 10:05:23,766 - INFO - Найдено динамических блоков: 13
+2026-06-02 10:05:31,986 - INFO - === Детальная информация о блоках ===
+2026-06-02 10:05:32,211 - INFO - Блок: HeightsForCabs
+2026-06-02 10:05:32,211 - INFO -   Тип: special, isBottom=False, isTop=False
+2026-06-02 10:05:32,211 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:05:32,211 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:05:32,648 - INFO - Блок: Hood_Cyclone_SC51424
+2026-06-02 10:05:32,648 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:05:32,648 - INFO -   Width=600.0, Height=850.0
+2026-06-02 10:05:32,648 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:05:32,962 - INFO - Блок: upper_filler
+2026-06-02 10:05:32,962 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:05:32,962 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:05:32,962 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:05:33,226 - INFO - Блок: upper_cab_swing
+2026-06-02 10:05:33,226 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:05:33,226 - INFO -   Width=480.0, Height=850.0
+2026-06-02 10:05:33,226 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:05:33,499 - INFO - Блок: upper_cab_swing
+2026-06-02 10:05:33,500 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:05:33,500 - INFO -   Width=610.0, Height=850.0
+2026-06-02 10:05:33,500 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:05:33,592 - INFO - Блок: countertop_by
+2026-06-02 10:05:33,592 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:05:33,592 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:05:33,592 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:05:33,758 - INFO - Блок: countertop20
+2026-06-02 10:05:33,758 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:05:33,758 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:05:33,758 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:05:34,169 - INFO - Блок: btm_cab_dwr
+2026-06-02 10:05:34,169 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:05:34,169 - INFO -   Width=530.0, Height=793.0
+2026-06-02 10:05:34,169 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:05:34,575 - INFO - Блок: btm_cab_swing
+2026-06-02 10:05:34,575 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:05:34,575 - INFO -   Width=660.0, Height=793.0
+2026-06-02 10:05:34,575 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:05:34,935 - INFO - Блок: fridge_cab_divider
+2026-06-02 10:05:34,935 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:05:34,935 - INFO -   Width=650.0, Height=0.0
+2026-06-02 10:05:34,935 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:05:35,051 - INFO - Блок: Floor_13mm
+2026-06-02 10:05:35,051 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:05:35,052 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:05:35,052 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:05:35,326 - INFO - Блок: Kick_plate
+2026-06-02 10:05:35,326 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:05:35,326 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:05:35,326 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:05:35,860 - INFO - Блок: freestanding_fridge_cab
+2026-06-02 10:05:35,860 - INFO -   Тип: full, isBottom=True, isTop=True
+2026-06-02 10:05:35,860 - INFO -   Width=650.0, Height=2375.0
+2026-06-02 10:05:35,860 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:06:10,965 - INFO - === Применение ширины к верхней линии: target=2440.0 ===
+2026-06-02 10:06:12,115 - INFO - Верхняя линия: 2340.0 из ['Hood_Cyclone_SC51424: 600.0', 'upper_filler: 0.0', 'upper_cab_swing: 480.0', 'upper_cab_swing: 610.0', 'freestanding_fridge_cab: 650.0']
+2026-06-02 10:06:12,375 - INFO - Расширяемые блоки (ChangeWidth=1): 2 из 5
+2026-06-02 10:06:12,376 - INFO - Нужно увеличить на 100.0, инкремент на блок: 50.000
+2026-06-02 10:06:12,396 - INFO -   upper_cab_swing: 480.0 → 530.0
+2026-06-02 10:06:12,551 - DEBUG - Установлено Width = 530.0 для блока upper_cab_swing
+2026-06-02 10:06:12,613 - INFO -   upper_cab_swing: 610.0 → 660.0
+2026-06-02 10:06:12,791 - DEBUG - Установлено Width = 660.0 для блока upper_cab_swing
+2026-06-02 10:06:13,563 - INFO - Результат: 2340.0 → 2440.0
+2026-06-02 10:06:13,609 - INFO - Найдено динамических блоков: 13
+2026-06-02 10:06:16,984 - DEBUG - get_dyn_prop_value error for isTop: (-2147418111, 'Вызов был отклонен.', None, None)
+2026-06-02 10:06:16,984 - DEBUG - get_dyn_prop_value error for isTop: (-2147418111, 'Вызов был отклонен.', None, None)
+2026-06-02 10:06:16,985 - DEBUG - get_dyn_prop_value error for isBottom: (-2147418111, 'Вызов был отклонен.', None, None)
+2026-06-02 10:06:16,985 - DEBUG - get_dyn_prop_value error for Width: (-2147418111, 'Вызов был отклонен.', None, None)
+2026-06-02 10:06:16,986 - DEBUG - get_dyn_prop_value error for Length: (-2147418111, 'Вызов был отклонен.', None, None)
+2026-06-02 10:06:16,986 - DEBUG - get_dyn_prop_value error for OverallWidth: (-2147418111, 'Вызов был отклонен.', None, None)
+2026-06-02 10:06:16,987 - DEBUG - get_dyn_prop_value error for Height: (-2147418111, 'Вызов был отклонен.', None, None)
+2026-06-02 10:06:16,987 - DEBUG - get_dyn_prop_value error for Depth: (-2147418111, 'Вызов был отклонен.', None, None)
+2026-06-02 10:06:16,988 - DEBUG - get_dyn_prop_value error for ChangeWidth: (-2147418111, 'Вызов был отклонен.', None, None)
+2026-06-02 10:06:16,988 - DEBUG - get_dyn_prop_value error for ChangeHeight: (-2147418111, 'Вызов был отклонен.', None, None)
+2026-06-02 10:06:55,159 - INFO - Найдено динамических блоков: 13
+2026-06-02 10:07:03,344 - INFO - === Детальная информация о блоках ===
+2026-06-02 10:07:03,577 - INFO - Блок: HeightsForCabs
+2026-06-02 10:07:03,577 - INFO -   Тип: special, isBottom=False, isTop=False
+2026-06-02 10:07:03,577 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:07:03,577 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:07:04,026 - INFO - Блок: Hood_Cyclone_SC51424
+2026-06-02 10:07:04,026 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:07:04,026 - INFO -   Width=600.0, Height=850.0
+2026-06-02 10:07:04,026 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:07:04,345 - INFO - Блок: upper_filler
+2026-06-02 10:07:04,345 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:07:04,345 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:07:04,345 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:07:04,614 - INFO - Блок: upper_cab_swing
+2026-06-02 10:07:04,614 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:07:04,614 - INFO -   Width=530.0, Height=850.0
+2026-06-02 10:07:04,614 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:07:04,882 - INFO - Блок: upper_cab_swing
+2026-06-02 10:07:04,882 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:07:04,882 - INFO -   Width=660.0, Height=850.0
+2026-06-02 10:07:04,882 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:07:04,976 - INFO - Блок: countertop_by
+2026-06-02 10:07:04,976 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:07:04,976 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:07:04,976 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:07:05,144 - INFO - Блок: countertop20
+2026-06-02 10:07:05,144 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:07:05,144 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:07:05,144 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:07:05,564 - INFO - Блок: btm_cab_dwr
+2026-06-02 10:07:05,564 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:07:05,564 - INFO -   Width=530.0, Height=793.0
+2026-06-02 10:07:05,564 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:07:05,967 - INFO - Блок: btm_cab_swing
+2026-06-02 10:07:05,968 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:07:05,968 - INFO -   Width=660.0, Height=793.0
+2026-06-02 10:07:05,968 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:07:06,322 - INFO - Блок: fridge_cab_divider
+2026-06-02 10:07:06,323 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:07:06,323 - INFO -   Width=650.0, Height=0.0
+2026-06-02 10:07:06,323 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:07:06,440 - INFO - Блок: Floor_13mm
+2026-06-02 10:07:06,440 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:07:06,440 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:07:06,440 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:07:06,719 - INFO - Блок: Kick_plate
+2026-06-02 10:07:06,719 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:07:06,719 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:07:06,719 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:07:07,255 - INFO - Блок: freestanding_fridge_cab
+2026-06-02 10:07:07,256 - INFO -   Тип: full, isBottom=True, isTop=True
+2026-06-02 10:07:07,256 - INFO -   Width=650.0, Height=2375.0
+2026-06-02 10:07:07,256 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:07:26,834 - INFO - Найдено динамических блоков: 13
+2026-06-02 10:07:34,836 - INFO - === Детальная информация о блоках ===
+2026-06-02 10:07:35,061 - INFO - Блок: HeightsForCabs
+2026-06-02 10:07:35,061 - INFO -   Тип: special, isBottom=False, isTop=False
+2026-06-02 10:07:35,061 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:07:35,061 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:07:35,492 - INFO - Блок: Hood_Cyclone_SC51424
+2026-06-02 10:07:35,492 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:07:35,492 - INFO -   Width=600.0, Height=850.0
+2026-06-02 10:07:35,492 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:07:35,805 - INFO - Блок: upper_filler
+2026-06-02 10:07:35,805 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:07:35,805 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:07:35,805 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:07:36,077 - INFO - Блок: upper_cab_swing
+2026-06-02 10:07:36,077 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:07:36,077 - INFO -   Width=530.0, Height=850.0
+2026-06-02 10:07:36,077 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:07:36,350 - INFO - Блок: upper_cab_swing
+2026-06-02 10:07:36,350 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:07:36,350 - INFO -   Width=660.0, Height=850.0
+2026-06-02 10:07:36,350 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:07:36,438 - INFO - Блок: countertop_by
+2026-06-02 10:07:36,439 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:07:36,439 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:07:36,439 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:07:36,604 - INFO - Блок: countertop20
+2026-06-02 10:07:36,604 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:07:36,605 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:07:36,605 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:07:37,011 - INFO - Блок: btm_cab_dwr
+2026-06-02 10:07:37,011 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:07:37,011 - INFO -   Width=530.0, Height=793.0
+2026-06-02 10:07:37,011 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:07:37,425 - INFO - Блок: btm_cab_swing
+2026-06-02 10:07:37,425 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:07:37,425 - INFO -   Width=660.0, Height=793.0
+2026-06-02 10:07:37,425 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:07:37,785 - INFO - Блок: fridge_cab_divider
+2026-06-02 10:07:37,785 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:07:37,785 - INFO -   Width=650.0, Height=0.0
+2026-06-02 10:07:37,785 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:07:37,903 - INFO - Блок: Floor_13mm
+2026-06-02 10:07:37,903 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:07:37,903 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:07:37,903 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:07:38,175 - INFO - Блок: Kick_plate
+2026-06-02 10:07:38,175 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:07:38,175 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:07:38,175 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:07:38,694 - INFO - Блок: freestanding_fridge_cab
+2026-06-02 10:07:38,694 - INFO -   Тип: full, isBottom=True, isTop=True
+2026-06-02 10:07:38,694 - INFO -   Width=650.0, Height=2375.0
+2026-06-02 10:07:38,694 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:08:54,330 - INFO - === Применение ширины к верхней линии: target=2540.0 ===
+2026-06-02 10:08:54,331 - DEBUG - get_dyn_prop_value error for isTop: (-2147023174, 'Сервер RPC недоступен.', None, None)
+2026-06-02 10:08:54,331 - DEBUG - get_dyn_prop_value error for isTop: (-2147023174, 'Сервер RPC недоступен.', None, None)
+2026-06-02 10:08:54,331 - DEBUG - get_dyn_prop_value error for isTop: (-2147023174, 'Сервер RPC недоступен.', None, None)
+2026-06-02 10:08:54,331 - DEBUG - get_dyn_prop_value error for isTop: (-2147023174, 'Сервер RPC недоступен.', None, None)
+2026-06-02 10:08:54,332 - DEBUG - get_dyn_prop_value error for isTop: (-2147023174, 'Сервер RPC недоступен.', None, None)
+2026-06-02 10:08:54,332 - DEBUG - get_dyn_prop_value error for isTop: (-2147023174, 'Сервер RPC недоступен.', None, None)
+2026-06-02 10:08:54,332 - DEBUG - get_dyn_prop_value error for isTop: (-2147023174, 'Сервер RPC недоступен.', None, None)
+2026-06-02 10:08:54,332 - DEBUG - get_dyn_prop_value error for isTop: (-2147023174, 'Сервер RPC недоступен.', None, None)
+2026-06-02 10:08:54,332 - DEBUG - get_dyn_prop_value error for isTop: (-2147023174, 'Сервер RPC недоступен.', None, None)
+2026-06-02 10:08:54,332 - DEBUG - get_dyn_prop_value error for isTop: (-2147023174, 'Сервер RPC недоступен.', None, None)
+2026-06-02 10:08:54,333 - DEBUG - get_dyn_prop_value error for isTop: (-2147023174, 'Сервер RPC недоступен.', None, None)
+2026-06-02 10:08:54,333 - DEBUG - get_dyn_prop_value error for isTop: (-2147023174, 'Сервер RPC недоступен.', None, None)
+2026-06-02 10:08:54,333 - DEBUG - get_dyn_prop_value error for isTop: (-2147023174, 'Сервер RPC недоступен.', None, None)
+2026-06-02 10:09:15,473 - ERROR - Ошибка получения выделенных блоков: (-2147023174, 'Сервер RPC недоступен.', None, None)
+2026-06-02 10:09:21,462 - INFO - Попытка подключения к AutoCAD...
+2026-06-02 10:09:21,476 - INFO - ✅ Подключено к запущенному AutoCAD
+2026-06-02 10:09:28,555 - INFO - Найдено динамических блоков: 13
+2026-06-02 10:09:36,483 - INFO - === Детальная информация о блоках ===
+2026-06-02 10:09:36,748 - INFO - Блок: upper_cab_swing
+2026-06-02 10:09:36,748 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:09:36,748 - INFO -   Width=480.0, Height=850.0
+2026-06-02 10:09:36,748 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:09:36,961 - INFO - Блок: HeightsForCabs
+2026-06-02 10:09:36,961 - INFO -   Тип: special, isBottom=False, isTop=False
+2026-06-02 10:09:36,962 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:09:36,962 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:09:37,372 - INFO - Блок: Hood_Cyclone_SC51424
+2026-06-02 10:09:37,372 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:09:37,372 - INFO -   Width=600.0, Height=850.0
+2026-06-02 10:09:37,372 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:09:37,672 - INFO - Блок: upper_filler
+2026-06-02 10:09:37,672 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:09:37,672 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:09:37,672 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:09:37,932 - INFO - Блок: upper_cab_swing
+2026-06-02 10:09:37,932 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:09:37,932 - INFO -   Width=610.0, Height=850.0
+2026-06-02 10:09:37,932 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:09:38,023 - INFO - Блок: countertop_by
+2026-06-02 10:09:38,023 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:09:38,023 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:09:38,023 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:09:38,176 - INFO - Блок: countertop20
+2026-06-02 10:09:38,176 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:09:38,176 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:09:38,177 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:09:38,567 - INFO - Блок: btm_cab_dwr
+2026-06-02 10:09:38,568 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:09:38,568 - INFO -   Width=480.0, Height=793.0
+2026-06-02 10:09:38,568 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:09:38,945 - INFO - Блок: btm_cab_swing
+2026-06-02 10:09:38,945 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:09:38,945 - INFO -   Width=610.0, Height=793.0
+2026-06-02 10:09:38,945 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:09:39,277 - INFO - Блок: fridge_cab_divider
+2026-06-02 10:09:39,277 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:09:39,277 - INFO -   Width=650.0, Height=0.0
+2026-06-02 10:09:39,277 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:09:39,389 - INFO - Блок: Floor_13mm
+2026-06-02 10:09:39,389 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:09:39,389 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:09:39,389 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:09:39,650 - INFO - Блок: Kick_plate
+2026-06-02 10:09:39,650 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:09:39,650 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:09:39,650 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:09:40,154 - INFO - Блок: freestanding_fridge_cab
+2026-06-02 10:09:40,154 - INFO -   Тип: full, isBottom=True, isTop=True
+2026-06-02 10:09:40,154 - INFO -   Width=650.0, Height=2375.0
+2026-06-02 10:09:40,154 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:09:54,369 - INFO - === Применение ширины к верхней линии: target=2440.0 ===
+2026-06-02 10:09:55,465 - INFO - Верхняя линия: 2340.0 из ['upper_cab_swing: 480.0', 'Hood_Cyclone_SC51424: 600.0', 'upper_filler: 0.0', 'upper_cab_swing: 610.0', 'freestanding_fridge_cab: 650.0']
+2026-06-02 10:09:55,705 - INFO - Расширяемые блоки (ChangeWidth=1): 2 из 5
+2026-06-02 10:09:55,706 - INFO - Нужно увеличить на 100.0, инкремент на блок: 50.000
+2026-06-02 10:09:55,725 - INFO -   upper_cab_swing: 480.0 → 530.0
+2026-06-02 10:09:55,869 - DEBUG - Установлено Width = 530.0 для блока upper_cab_swing
+2026-06-02 10:09:55,936 - INFO -   upper_cab_swing: 610.0 → 660.0
+2026-06-02 10:09:56,107 - DEBUG - Установлено Width = 660.0 для блока upper_cab_swing
+2026-06-02 10:09:56,874 - INFO - Результат: 2340.0 → 2440.0
+2026-06-02 10:09:56,923 - INFO - Найдено динамических блоков: 13
+2026-06-02 10:10:04,698 - INFO - === Детальная информация о блоках ===
+2026-06-02 10:10:04,956 - INFO - Блок: upper_cab_swing
+2026-06-02 10:10:04,956 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:10:04,956 - INFO -   Width=530.0, Height=850.0
+2026-06-02 10:10:04,956 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:10:05,165 - INFO - Блок: HeightsForCabs
+2026-06-02 10:10:05,166 - INFO -   Тип: special, isBottom=False, isTop=False
+2026-06-02 10:10:05,166 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:10:05,166 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:10:05,577 - INFO - Блок: Hood_Cyclone_SC51424
+2026-06-02 10:10:05,577 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:10:05,577 - INFO -   Width=600.0, Height=850.0
+2026-06-02 10:10:05,577 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:10:05,872 - INFO - Блок: upper_filler
+2026-06-02 10:10:05,872 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:10:05,873 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:10:05,873 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:10:06,123 - INFO - Блок: upper_cab_swing
+2026-06-02 10:10:06,123 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:10:06,123 - INFO -   Width=660.0, Height=850.0
+2026-06-02 10:10:06,123 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:10:06,215 - INFO - Блок: countertop_by
+2026-06-02 10:10:06,215 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:10:06,215 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:10:06,215 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:10:06,368 - INFO - Блок: countertop20
+2026-06-02 10:10:06,369 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:10:06,369 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:10:06,369 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:10:06,764 - INFO - Блок: btm_cab_dwr
+2026-06-02 10:10:06,764 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:10:06,764 - INFO -   Width=480.0, Height=793.0
+2026-06-02 10:10:06,764 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:10:07,139 - INFO - Блок: btm_cab_swing
+2026-06-02 10:10:07,139 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:10:07,139 - INFO -   Width=610.0, Height=793.0
+2026-06-02 10:10:07,139 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:10:07,474 - INFO - Блок: fridge_cab_divider
+2026-06-02 10:10:07,474 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:10:07,474 - INFO -   Width=650.0, Height=0.0
+2026-06-02 10:10:07,474 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:10:07,586 - INFO - Блок: Floor_13mm
+2026-06-02 10:10:07,586 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:10:07,586 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:10:07,586 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:10:07,844 - INFO - Блок: Kick_plate
+2026-06-02 10:10:07,844 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:10:07,844 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:10:07,844 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:10:08,345 - INFO - Блок: freestanding_fridge_cab
+2026-06-02 10:10:08,345 - INFO -   Тип: full, isBottom=True, isTop=True
+2026-06-02 10:10:08,345 - INFO -   Width=650.0, Height=2375.0
+2026-06-02 10:10:08,345 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:10:13,794 - INFO - === Обновление спецэлементов ===
+2026-06-02 10:10:14,711 - INFO - Чистые нижние: 1090.0 из ['btm_cab_dwr: 480.0', 'btm_cab_swing: 610.0']
+2026-06-02 10:10:15,731 - INFO - Чистые верхние: 1790.0 из ['upper_cab_swing: 530.0', 'Hood_Cyclone_SC51424: 600.0', 'upper_filler: 0.0', 'upper_cab_swing: 660.0']
+2026-06-02 10:10:15,732 - INFO - Чистые нижние (столешница/плинтус): 1090.0
+2026-06-02 10:10:15,732 - INFO - Чистые верхние (верхняя планка): 1790.0
+2026-06-02 10:10:16,427 - DEBUG - Установлено upper_filler_w = 1790.0 для блока upper_filler
+2026-06-02 10:10:16,444 - INFO -   upper_filler.upper_filler_w = 1790.0
+2026-06-02 10:10:16,653 - DEBUG - Установлено Recalculated_Width = 1790.0 для блока upper_filler
+2026-06-02 10:10:16,662 - INFO -   upper_filler.Recalculated_Width = 1790.0 (top)
+2026-06-02 10:10:16,989 - DEBUG - Установлено countertop_w = 1089.9999999999995 для блока countertop20
+2026-06-02 10:10:17,005 - INFO -   countertop20.countertop_w = 1090.0
+2026-06-02 10:10:17,928 - DEBUG - Установлено kick_plate_w = 1089.9999999999995 для блока Kick_plate
+2026-06-02 10:10:17,943 - INFO -   Kick_plate.kick_plate_w = 1090.0
+2026-06-02 10:12:03,998 - INFO - Найдено динамических блоков: 13
+2026-06-02 10:12:13,156 - INFO - === Детальная информация о блоках ===
+2026-06-02 10:12:13,428 - INFO - Блок: HeightsForCabs
+2026-06-02 10:12:13,428 - INFO -   Тип: special, isBottom=False, isTop=False
+2026-06-02 10:12:13,428 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:12:13,428 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:12:13,947 - INFO - Блок: Hood_Cyclone_SC51424
+2026-06-02 10:12:13,947 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:12:13,947 - INFO -   Width=600.0, Height=850.0
+2026-06-02 10:12:13,947 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:12:14,298 - INFO - Блок: upper_filler
+2026-06-02 10:12:14,298 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:12:14,298 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:12:14,298 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:12:14,605 - INFO - Блок: upper_cab_swing
+2026-06-02 10:12:14,605 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:12:14,605 - INFO -   Width=530.0, Height=850.0
+2026-06-02 10:12:14,605 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:12:14,916 - INFO - Блок: upper_cab_swing
+2026-06-02 10:12:14,916 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:12:14,917 - INFO -   Width=660.0, Height=850.0
+2026-06-02 10:12:14,917 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:12:15,023 - INFO - Блок: countertop_by
+2026-06-02 10:12:15,023 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:12:15,023 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:12:15,023 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:12:15,210 - INFO - Блок: countertop20
+2026-06-02 10:12:15,210 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:12:15,210 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:12:15,210 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:12:15,676 - INFO - Блок: btm_cab_dwr
+2026-06-02 10:12:15,676 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:12:15,676 - INFO -   Width=480.0, Height=793.0
+2026-06-02 10:12:15,676 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:12:16,142 - INFO - Блок: btm_cab_swing
+2026-06-02 10:12:16,142 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:12:16,142 - INFO -   Width=610.0, Height=793.0
+2026-06-02 10:12:16,142 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:12:16,591 - INFO - Блок: fridge_cab_divider
+2026-06-02 10:12:16,591 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:12:16,591 - INFO -   Width=650.0, Height=0.0
+2026-06-02 10:12:16,591 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:12:16,751 - INFO - Блок: Floor_13mm
+2026-06-02 10:12:16,751 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:12:16,752 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:12:16,752 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:12:17,089 - INFO - Блок: Kick_plate
+2026-06-02 10:12:17,089 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:12:17,089 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:12:17,089 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:12:17,721 - INFO - Блок: freestanding_fridge_cab
+2026-06-02 10:12:17,722 - INFO -   Тип: full, isBottom=True, isTop=True
+2026-06-02 10:12:17,722 - INFO -   Width=650.0, Height=2375.0
+2026-06-02 10:12:17,722 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:14:46,265 - INFO - === Применение общей высоты: target=2538.0 ===
+2026-06-02 10:14:46,292 - INFO - Текущая Opening_Height: 2438.0, дельта: 100.0
+2026-06-02 10:14:46,496 - INFO -   Hood_Cyclone_SC51424: высота 850.0 → 950.0 (ChangeHeight=1)
+2026-06-02 10:14:46,654 - DEBUG - Установлено Height = 950.0 для блока Hood_Cyclone_SC51424
+2026-06-02 10:14:46,817 - INFO -   upper_filler: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-02 10:14:46,958 - INFO -   upper_cab_swing: высота 850.0 → 950.0 (ChangeHeight=1)
+2026-06-02 10:14:47,132 - DEBUG - Установлено Height = 950.0 для блока upper_cab_swing
+2026-06-02 10:14:47,312 - INFO -   upper_cab_swing: высота 850.0 → 950.0 (ChangeHeight=1)
+2026-06-02 10:14:47,486 - DEBUG - Установлено Height = 950.0 для блока upper_cab_swing
+2026-06-02 10:14:47,572 - INFO -   countertop_by: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-02 10:14:47,643 - INFO -   countertop20: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-02 10:14:47,843 - INFO -   btm_cab_dwr: высота НЕ изменена (793.0, ChangeHeight=0)
+2026-06-02 10:14:48,038 - INFO -   btm_cab_swing: высота НЕ изменена (793.0, ChangeHeight=0)
+2026-06-02 10:14:48,230 - INFO -   fridge_cab_divider: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-02 10:14:48,281 - INFO -   Floor_13mm: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-02 10:14:48,399 - INFO -   Kick_plate: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-02 10:14:48,656 - INFO -   freestanding_fridge_cab: высота 2375.0 → 2475.0 (ChangeHeight=1)
+2026-06-02 10:14:48,909 - DEBUG - Установлено Height = 2475.0 для блока freestanding_fridge_cab
+2026-06-02 10:14:48,982 - INFO -   Upper_Height: 850.0 → 950.0
+2026-06-02 10:14:49,005 - DEBUG - Свойство Upper_Height не найдено или только для чтения
+2026-06-02 10:14:49,094 - DEBUG - Установлено Opening_Height = 2538.0 для блока HeightsForCabs
+2026-06-02 10:14:49,133 - INFO - ✅ Высота увеличена на 100.0 мм
+Изменено блоков: 4
+Пропущено (ChangeHeight=0): upper_filler, countertop_by, countertop20, btm_cab_dwr, btm_cab_swing, fridge_cab_divider, Floor_13mm, Kick_plate
+2026-06-02 10:14:49,236 - INFO - Найдено динамических блоков: 13
+2026-06-02 10:14:57,015 - INFO - === Детальная информация о блоках ===
+2026-06-02 10:14:57,229 - INFO - Блок: HeightsForCabs
+2026-06-02 10:14:57,229 - INFO -   Тип: special, isBottom=False, isTop=False
+2026-06-02 10:14:57,229 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:14:57,229 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:14:57,648 - INFO - Блок: Hood_Cyclone_SC51424
+2026-06-02 10:14:57,648 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:14:57,648 - INFO -   Width=600.0, Height=950.0
+2026-06-02 10:14:57,648 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:14:57,949 - INFO - Блок: upper_filler
+2026-06-02 10:14:57,949 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:14:57,949 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:14:57,949 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:14:58,206 - INFO - Блок: upper_cab_swing
+2026-06-02 10:14:58,206 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:14:58,206 - INFO -   Width=530.0, Height=950.0
+2026-06-02 10:14:58,206 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:14:58,460 - INFO - Блок: upper_cab_swing
+2026-06-02 10:14:58,460 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:14:58,460 - INFO -   Width=660.0, Height=950.0
+2026-06-02 10:14:58,461 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:14:58,552 - INFO - Блок: countertop_by
+2026-06-02 10:14:58,552 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:14:58,552 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:14:58,552 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:14:58,709 - INFO - Блок: countertop20
+2026-06-02 10:14:58,709 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:14:58,709 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:14:58,709 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:14:59,115 - INFO - Блок: btm_cab_dwr
+2026-06-02 10:14:59,115 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:14:59,115 - INFO -   Width=480.0, Height=793.0
+2026-06-02 10:14:59,115 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:14:59,495 - INFO - Блок: btm_cab_swing
+2026-06-02 10:14:59,495 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:14:59,495 - INFO -   Width=610.0, Height=793.0
+2026-06-02 10:14:59,495 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:14:59,831 - INFO - Блок: fridge_cab_divider
+2026-06-02 10:14:59,831 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:14:59,832 - INFO -   Width=650.0, Height=0.0
+2026-06-02 10:14:59,832 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:14:59,942 - INFO - Блок: Floor_13mm
+2026-06-02 10:14:59,942 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:14:59,942 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:14:59,942 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:15:00,203 - INFO - Блок: Kick_plate
+2026-06-02 10:15:00,203 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:15:00,203 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:15:00,203 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:15:00,704 - INFO - Блок: freestanding_fridge_cab
+2026-06-02 10:15:00,704 - INFO -   Тип: full, isBottom=True, isTop=True
+2026-06-02 10:15:00,704 - INFO -   Width=650.0, Height=2475.0
+2026-06-02 10:15:00,704 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:15:06,162 - DEBUG - get_dyn_prop_value error for kick_plate_w: GetDynamicBlockProperties.PropertyName
+2026-06-02 10:15:06,167 - DEBUG - get_dyn_prop_value error for kick_plate_w: (-2147418111, 'Вызов был отклонен.', None, None)
+2026-06-02 10:15:06,167 - DEBUG - get_dyn_prop_value error for kick_plate_w: (-2147418111, 'Вызов был отклонен.', None, None)
+2026-06-02 10:15:06,168 - DEBUG - get_dyn_prop_value error for kick_plate_w: (-2147418111, 'Вызов был отклонен.', None, None)
+2026-06-02 10:15:06,168 - DEBUG - get_dyn_prop_value error for kick_plate_w: (-2147418111, 'Вызов был отклонен.', None, None)
+2026-06-02 10:15:06,169 - DEBUG - get_dyn_prop_value error for upper_filler_w: (-2147418111, 'Вызов был отклонен.', None, None)
+2026-06-02 10:15:06,170 - DEBUG - get_dyn_prop_value error for upper_filler_w: (-2147418111, 'Вызов был отклонен.', None, None)
+2026-06-02 10:15:06,170 - DEBUG - get_dyn_prop_value error for upper_filler_w: (-2147418111, 'Вызов был отклонен.', None, None)
+2026-06-02 10:15:06,171 - DEBUG - get_dyn_prop_value error for upper_filler_w: (-2147418111, 'Вызов был отклонен.', None, None)
+2026-06-02 10:15:06,171 - DEBUG - get_dyn_prop_value error for upper_filler_w: (-2147418111, 'Вызов был отклонен.', None, None)
+2026-06-02 10:15:06,172 - DEBUG - get_dyn_prop_value error for upper_filler_w: (-2147418111, 'Вызов был отклонен.', None, None)
+2026-06-02 10:15:06,172 - DEBUG - get_dyn_prop_value error for upper_filler_w: (-2147418111, 'Вызов был отклонен.', None, None)
+2026-06-02 10:15:06,173 - DEBUG - get_dyn_prop_value error for upper_filler_w: (-2147418111, 'Вызов был отклонен.', None, None)
+2026-06-02 10:15:06,173 - DEBUG - get_dyn_prop_value error for upper_filler_w: (-2147418111, 'Вызов был отклонен.', None, None)
+2026-06-02 10:15:06,173 - DEBUG - get_dyn_prop_value error for upper_filler_w: (-2147418111, 'Вызов был отклонен.', None, None)
+2026-06-02 10:15:06,174 - DEBUG - get_dyn_prop_value error for upper_filler_w: (-2147418111, 'Вызов был отклонен.', None, None)
+2026-06-02 10:15:06,174 - DEBUG - get_dyn_prop_value error for upper_filler_w: (-2147418111, 'Вызов был отклонен.', None, None)
+2026-06-02 10:15:06,174 - DEBUG - get_dyn_prop_value error for upper_filler_w: (-2147418111, 'Вызов был отклонен.', None, None)
+2026-06-02 10:19:49,015 - INFO - Попытка подключения к AutoCAD...
+2026-06-02 10:19:49,026 - INFO - ✅ Подключено к запущенному AutoCAD
+2026-06-02 10:20:07,910 - INFO - Найдено динамических блоков: 13
+2026-06-02 10:20:16,570 - INFO - === Детальная информация о блоках ===
+2026-06-02 10:20:16,820 - INFO - Блок: HeightsForCabs
+2026-06-02 10:20:16,820 - INFO -   Тип: special, isBottom=False, isTop=False
+2026-06-02 10:20:16,820 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:20:16,820 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:20:17,301 - INFO - Блок: Hood_Cyclone_SC51424
+2026-06-02 10:20:17,301 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:20:17,301 - INFO -   Width=600.0, Height=850.0
+2026-06-02 10:20:17,301 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:20:17,651 - INFO - Блок: upper_filler
+2026-06-02 10:20:17,651 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:20:17,651 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:20:17,651 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:20:17,945 - INFO - Блок: upper_cab_swing
+2026-06-02 10:20:17,945 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:20:17,945 - INFO -   Width=480.0, Height=850.0
+2026-06-02 10:20:17,945 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:20:18,242 - INFO - Блок: upper_cab_swing
+2026-06-02 10:20:18,242 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:20:18,242 - INFO -   Width=610.0, Height=850.0
+2026-06-02 10:20:18,242 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:20:18,346 - INFO - Блок: countertop_by
+2026-06-02 10:20:18,346 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:20:18,346 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:20:18,346 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:20:18,527 - INFO - Блок: countertop20
+2026-06-02 10:20:18,527 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:20:18,527 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:20:18,527 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:20:18,981 - INFO - Блок: btm_cab_dwr
+2026-06-02 10:20:18,981 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:20:18,982 - INFO -   Width=480.0, Height=793.0
+2026-06-02 10:20:18,982 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:20:19,420 - INFO - Блок: btm_cab_swing
+2026-06-02 10:20:19,420 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:20:19,420 - INFO -   Width=610.0, Height=793.0
+2026-06-02 10:20:19,420 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:20:19,793 - INFO - Блок: fridge_cab_divider
+2026-06-02 10:20:19,793 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:20:19,793 - INFO -   Width=650.0, Height=0.0
+2026-06-02 10:20:19,793 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:20:19,921 - INFO - Блок: Floor_13mm
+2026-06-02 10:20:19,921 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:20:19,921 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:20:19,921 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:20:20,223 - INFO - Блок: Kick_plate
+2026-06-02 10:20:20,223 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:20:20,223 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:20:20,223 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:20:20,787 - INFO - Блок: freestanding_fridge_cab
+2026-06-02 10:20:20,787 - INFO -   Тип: full, isBottom=True, isTop=True
+2026-06-02 10:20:20,787 - INFO -   Width=650.0, Height=2375.0
+2026-06-02 10:20:20,787 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:20:44,804 - INFO - === Применение ширины к нижней линии: target=1840.0 ===
+2026-06-02 10:20:45,853 - INFO - Нижняя линия: 1740.0 из ['btm_cab_dwr: 480.0', 'btm_cab_swing: 610.0', 'freestanding_fridge_cab: 650.0']
+2026-06-02 10:20:46,041 - INFO - Расширяемые блоки (ChangeWidth=1): 2 из 3
+2026-06-02 10:20:46,041 - INFO - Нужно увеличить на 100.0, инкремент на блок: 50.000
+2026-06-02 10:20:46,073 - INFO -   btm_cab_dwr: 480.0 → 530.0
+2026-06-02 10:20:46,224 - DEBUG - Установлено Width = 530.0000000000002 для блока btm_cab_dwr
+2026-06-02 10:20:46,300 - INFO -   btm_cab_swing: 610.0 → 660.0
+2026-06-02 10:20:46,558 - DEBUG - Установлено Width = 659.9999999999998 для блока btm_cab_swing
+2026-06-02 10:20:47,228 - INFO - Результат: 1740.0 → 1840.0
+2026-06-02 10:20:47,278 - INFO - Найдено динамических блоков: 13
+2026-06-02 10:20:55,737 - INFO - === Детальная информация о блоках ===
+2026-06-02 10:20:55,984 - INFO - Блок: HeightsForCabs
+2026-06-02 10:20:55,984 - INFO -   Тип: special, isBottom=False, isTop=False
+2026-06-02 10:20:55,984 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:20:55,984 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:20:56,439 - INFO - Блок: Hood_Cyclone_SC51424
+2026-06-02 10:20:56,439 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:20:56,439 - INFO -   Width=600.0, Height=850.0
+2026-06-02 10:20:56,439 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:20:56,767 - INFO - Блок: upper_filler
+2026-06-02 10:20:56,767 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:20:56,767 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:20:56,767 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:20:57,044 - INFO - Блок: upper_cab_swing
+2026-06-02 10:20:57,044 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:20:57,044 - INFO -   Width=480.0, Height=850.0
+2026-06-02 10:20:57,044 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:20:57,325 - INFO - Блок: upper_cab_swing
+2026-06-02 10:20:57,326 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:20:57,326 - INFO -   Width=610.0, Height=850.0
+2026-06-02 10:20:57,326 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:20:57,427 - INFO - Блок: countertop_by
+2026-06-02 10:20:57,427 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:20:57,427 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:20:57,427 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:20:57,601 - INFO - Блок: countertop20
+2026-06-02 10:20:57,601 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:20:57,601 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:20:57,601 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:20:58,034 - INFO - Блок: btm_cab_dwr
+2026-06-02 10:20:58,034 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:20:58,034 - INFO -   Width=530.0, Height=793.0
+2026-06-02 10:20:58,035 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:20:58,449 - INFO - Блок: btm_cab_swing
+2026-06-02 10:20:58,449 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:20:58,449 - INFO -   Width=660.0, Height=793.0
+2026-06-02 10:20:58,449 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:20:58,827 - INFO - Блок: fridge_cab_divider
+2026-06-02 10:20:58,827 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:20:58,827 - INFO -   Width=650.0, Height=0.0
+2026-06-02 10:20:58,827 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:20:58,950 - INFO - Блок: Floor_13mm
+2026-06-02 10:20:58,951 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:20:58,951 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:20:58,951 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:20:59,241 - INFO - Блок: Kick_plate
+2026-06-02 10:20:59,241 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:20:59,241 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:20:59,241 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:20:59,791 - INFO - Блок: freestanding_fridge_cab
+2026-06-02 10:20:59,791 - INFO -   Тип: full, isBottom=True, isTop=True
+2026-06-02 10:20:59,791 - INFO -   Width=650.0, Height=2375.0
+2026-06-02 10:20:59,791 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:21:05,818 - INFO - === Обновление спецэлементов ===
+2026-06-02 10:21:06,869 - INFO - Чистые нижние: 1190.0 из ['btm_cab_dwr: 530.0', 'btm_cab_swing: 660.0']
+2026-06-02 10:21:08,000 - INFO - Чистые верхние: 1690.0 из ['Hood_Cyclone_SC51424: 600.0', 'upper_filler: 0.0', 'upper_cab_swing: 480.0', 'upper_cab_swing: 610.0']
+2026-06-02 10:21:08,000 - INFO - Чистые нижние (столешница/плинтус): 1190.0
+2026-06-02 10:21:08,000 - INFO - Чистые верхние (верхняя планка): 1690.0
+2026-06-02 10:21:08,587 - DEBUG - Установлено upper_filler_w = 1690.0 для блока upper_filler
+2026-06-02 10:21:08,606 - INFO -   upper_filler.upper_filler_w = 1690.0
+2026-06-02 10:21:08,825 - DEBUG - Установлено Recalculated_Width = 1690.0 для блока upper_filler
+2026-06-02 10:21:08,843 - INFO -   upper_filler.Recalculated_Width = 1690.0 (top)
+2026-06-02 10:21:09,345 - DEBUG - Установлено countertop_w = 1190.0 для блока countertop20
+2026-06-02 10:21:09,358 - INFO -   countertop20.countertop_w = 1190.0
+2026-06-02 10:21:10,394 - DEBUG - Установлено kick_plate_w = 1190.0 для блока Kick_plate
+2026-06-02 10:21:10,412 - INFO -   Kick_plate.kick_plate_w = 1190.0
+2026-06-02 10:21:47,614 - INFO - Найдено динамических блоков: 13
+2026-06-02 10:21:56,080 - INFO - === Детальная информация о блоках ===
+2026-06-02 10:21:56,307 - INFO - Блок: HeightsForCabs
+2026-06-02 10:21:56,307 - INFO -   Тип: special, isBottom=False, isTop=False
+2026-06-02 10:21:56,307 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:21:56,307 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:21:56,757 - INFO - Блок: Hood_Cyclone_SC51424
+2026-06-02 10:21:56,757 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:21:56,757 - INFO -   Width=600.0, Height=850.0
+2026-06-02 10:21:56,757 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:21:57,080 - INFO - Блок: upper_filler
+2026-06-02 10:21:57,080 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:21:57,080 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:21:57,080 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:21:57,354 - INFO - Блок: upper_cab_swing
+2026-06-02 10:21:57,354 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:21:57,354 - INFO -   Width=480.0, Height=850.0
+2026-06-02 10:21:57,354 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:21:57,632 - INFO - Блок: upper_cab_swing
+2026-06-02 10:21:57,632 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:21:57,632 - INFO -   Width=610.0, Height=850.0
+2026-06-02 10:21:57,632 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:21:57,731 - INFO - Блок: countertop_by
+2026-06-02 10:21:57,731 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:21:57,731 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:21:57,731 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:21:57,906 - INFO - Блок: countertop20
+2026-06-02 10:21:57,906 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:21:57,906 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:21:57,906 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:21:58,329 - INFO - Блок: btm_cab_dwr
+2026-06-02 10:21:58,329 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:21:58,329 - INFO -   Width=530.0, Height=793.0
+2026-06-02 10:21:58,329 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:21:58,734 - INFO - Блок: btm_cab_swing
+2026-06-02 10:21:58,735 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:21:58,735 - INFO -   Width=660.0, Height=793.0
+2026-06-02 10:21:58,735 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:21:59,106 - INFO - Блок: fridge_cab_divider
+2026-06-02 10:21:59,106 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:21:59,106 - INFO -   Width=650.0, Height=0.0
+2026-06-02 10:21:59,106 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:21:59,226 - INFO - Блок: Floor_13mm
+2026-06-02 10:21:59,226 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:21:59,226 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:21:59,226 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:21:59,508 - INFO - Блок: Kick_plate
+2026-06-02 10:21:59,508 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:21:59,508 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:21:59,508 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:22:00,041 - INFO - Блок: freestanding_fridge_cab
+2026-06-02 10:22:00,041 - INFO -   Тип: full, isBottom=True, isTop=True
+2026-06-02 10:22:00,041 - INFO -   Width=650.0, Height=2375.0
+2026-06-02 10:22:00,041 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:23:33,270 - INFO - === Применение ширины к верхней линии: target=2440.0 ===
+2026-06-02 10:23:34,372 - INFO - Верхняя линия: 2340.0 из ['Hood_Cyclone_SC51424: 600.0', 'upper_filler: 0.0', 'upper_cab_swing: 480.0', 'upper_cab_swing: 610.0', 'freestanding_fridge_cab: 650.0']
+2026-06-02 10:23:34,623 - INFO - Расширяемые блоки (ChangeWidth=1): 2 из 5
+2026-06-02 10:23:34,623 - INFO - Нужно увеличить на 100.0, инкремент на блок: 50.000
+2026-06-02 10:23:34,644 - INFO -   upper_cab_swing: 480.0 → 530.0
+2026-06-02 10:23:34,787 - DEBUG - Установлено Width = 530.0 для блока upper_cab_swing
+2026-06-02 10:23:34,845 - INFO -   upper_cab_swing: 610.0 → 660.0
+2026-06-02 10:23:35,012 - DEBUG - Установлено Width = 660.0 для блока upper_cab_swing
+2026-06-02 10:23:35,792 - INFO - Результат: 2340.0 → 2440.0
+2026-06-02 10:23:35,838 - INFO - Найдено динамических блоков: 13
+2026-06-02 10:23:43,740 - INFO - === Детальная информация о блоках ===
+2026-06-02 10:23:43,958 - INFO - Блок: HeightsForCabs
+2026-06-02 10:23:43,958 - INFO -   Тип: special, isBottom=False, isTop=False
+2026-06-02 10:23:43,958 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:23:43,958 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:23:44,382 - INFO - Блок: Hood_Cyclone_SC51424
+2026-06-02 10:23:44,382 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:23:44,382 - INFO -   Width=600.0, Height=850.0
+2026-06-02 10:23:44,382 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:23:44,694 - INFO - Блок: upper_filler
+2026-06-02 10:23:44,695 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:23:44,695 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:23:44,695 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:23:44,957 - INFO - Блок: upper_cab_swing
+2026-06-02 10:23:44,957 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:23:44,957 - INFO -   Width=530.0, Height=850.0
+2026-06-02 10:23:44,957 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:23:45,221 - INFO - Блок: upper_cab_swing
+2026-06-02 10:23:45,221 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:23:45,221 - INFO -   Width=660.0, Height=850.0
+2026-06-02 10:23:45,221 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:23:45,315 - INFO - Блок: countertop_by
+2026-06-02 10:23:45,315 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:23:45,315 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:23:45,315 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:23:45,476 - INFO - Блок: countertop20
+2026-06-02 10:23:45,477 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:23:45,477 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:23:45,477 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:23:45,888 - INFO - Блок: btm_cab_dwr
+2026-06-02 10:23:45,888 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:23:45,888 - INFO -   Width=530.0, Height=793.0
+2026-06-02 10:23:45,888 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:23:46,273 - INFO - Блок: btm_cab_swing
+2026-06-02 10:23:46,273 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:23:46,273 - INFO -   Width=660.0, Height=793.0
+2026-06-02 10:23:46,273 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:23:46,622 - INFO - Блок: fridge_cab_divider
+2026-06-02 10:23:46,622 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:23:46,622 - INFO -   Width=650.0, Height=0.0
+2026-06-02 10:23:46,622 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:23:46,734 - INFO - Блок: Floor_13mm
+2026-06-02 10:23:46,735 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:23:46,735 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:23:46,735 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:23:47,001 - INFO - Блок: Kick_plate
+2026-06-02 10:23:47,001 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:23:47,001 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:23:47,001 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:23:47,512 - INFO - Блок: freestanding_fridge_cab
+2026-06-02 10:23:47,512 - INFO -   Тип: full, isBottom=True, isTop=True
+2026-06-02 10:23:47,512 - INFO -   Width=650.0, Height=2375.0
+2026-06-02 10:23:47,512 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:23:53,098 - INFO - === Обновление спецэлементов ===
+2026-06-02 10:23:54,051 - INFO - Чистые нижние: 1190.0 из ['btm_cab_dwr: 530.0', 'btm_cab_swing: 660.0']
+2026-06-02 10:23:55,088 - INFO - Чистые верхние: 1790.0 из ['Hood_Cyclone_SC51424: 600.0', 'upper_filler: 0.0', 'upper_cab_swing: 530.0', 'upper_cab_swing: 660.0']
+2026-06-02 10:23:55,088 - INFO - Чистые нижние (столешница/плинтус): 1190.0
+2026-06-02 10:23:55,088 - INFO - Чистые верхние (верхняя планка): 1790.0
+2026-06-02 10:23:55,623 - DEBUG - Установлено upper_filler_w = 1790.0 для блока upper_filler
+2026-06-02 10:23:55,639 - INFO -   upper_filler.upper_filler_w = 1790.0
+2026-06-02 10:23:55,837 - DEBUG - Установлено Recalculated_Width = 1790.0 для блока upper_filler
+2026-06-02 10:23:55,852 - INFO -   upper_filler.Recalculated_Width = 1790.0 (top)
+2026-06-02 10:23:56,320 - DEBUG - Установлено countertop_w = 1190.0 для блока countertop20
+2026-06-02 10:23:56,326 - INFO -   countertop20.countertop_w = 1190.0
+2026-06-02 10:23:57,293 - DEBUG - Установлено kick_plate_w = 1190.0 для блока Kick_plate
+2026-06-02 10:23:57,313 - INFO -   Kick_plate.kick_plate_w = 1190.0
+2026-06-02 10:24:46,367 - INFO - Найдено динамических блоков: 13
+2026-06-02 10:24:54,572 - INFO - === Детальная информация о блоках ===
+2026-06-02 10:24:54,797 - INFO - Блок: HeightsForCabs
+2026-06-02 10:24:54,797 - INFO -   Тип: special, isBottom=False, isTop=False
+2026-06-02 10:24:54,797 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:24:54,797 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:24:55,232 - INFO - Блок: Hood_Cyclone_SC51424
+2026-06-02 10:24:55,232 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:24:55,232 - INFO -   Width=600.0, Height=850.0
+2026-06-02 10:24:55,232 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:24:55,542 - INFO - Блок: upper_filler
+2026-06-02 10:24:55,542 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:24:55,542 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:24:55,542 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:24:55,802 - INFO - Блок: upper_cab_swing
+2026-06-02 10:24:55,802 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:24:55,802 - INFO -   Width=530.0, Height=850.0
+2026-06-02 10:24:55,802 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:24:56,062 - INFO - Блок: upper_cab_swing
+2026-06-02 10:24:56,062 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:24:56,062 - INFO -   Width=660.0, Height=850.0
+2026-06-02 10:24:56,062 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:24:56,155 - INFO - Блок: countertop_by
+2026-06-02 10:24:56,156 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:24:56,156 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:24:56,156 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:24:56,315 - INFO - Блок: countertop20
+2026-06-02 10:24:56,316 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:24:56,316 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:24:56,316 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:24:56,724 - INFO - Блок: btm_cab_dwr
+2026-06-02 10:24:56,724 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:24:56,724 - INFO -   Width=530.0, Height=793.0
+2026-06-02 10:24:56,724 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:24:57,118 - INFO - Блок: btm_cab_swing
+2026-06-02 10:24:57,118 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:24:57,118 - INFO -   Width=660.0, Height=793.0
+2026-06-02 10:24:57,118 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:24:57,471 - INFO - Блок: fridge_cab_divider
+2026-06-02 10:24:57,471 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:24:57,471 - INFO -   Width=650.0, Height=0.0
+2026-06-02 10:24:57,471 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:24:57,591 - INFO - Блок: Floor_13mm
+2026-06-02 10:24:57,591 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:24:57,591 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:24:57,591 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:24:57,871 - INFO - Блок: Kick_plate
+2026-06-02 10:24:57,871 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:24:57,871 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:24:57,871 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:24:58,394 - INFO - Блок: freestanding_fridge_cab
+2026-06-02 10:24:58,394 - INFO -   Тип: full, isBottom=True, isTop=True
+2026-06-02 10:24:58,394 - INFO -   Width=650.0, Height=2375.0
+2026-06-02 10:24:58,394 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:25:18,734 - INFO - === Применение общей высоты: target=2538.0 ===
+2026-06-02 10:25:18,764 - INFO - Текущая Opening_Height: 2438.0, дельта: 100.0
+2026-06-02 10:25:18,965 - INFO -   Hood_Cyclone_SC51424: высота 850.0 → 950.0 (ChangeHeight=1)
+2026-06-02 10:25:19,126 - DEBUG - Установлено Height = 950.0 для блока Hood_Cyclone_SC51424
+2026-06-02 10:25:19,314 - INFO -   upper_filler: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-02 10:25:19,448 - INFO -   upper_cab_swing: высота 850.0 → 950.0 (ChangeHeight=1)
+2026-06-02 10:25:19,633 - DEBUG - Установлено Height = 950.0 для блока upper_cab_swing
+2026-06-02 10:25:19,820 - INFO -   upper_cab_swing: высота 850.0 → 950.0 (ChangeHeight=1)
+2026-06-02 10:25:20,003 - DEBUG - Установлено Height = 950.0 для блока upper_cab_swing
+2026-06-02 10:25:20,084 - INFO -   countertop_by: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-02 10:25:20,170 - INFO -   countertop20: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-02 10:25:20,373 - INFO -   btm_cab_dwr: высота НЕ изменена (793.0, ChangeHeight=0)
+2026-06-02 10:25:20,562 - INFO -   btm_cab_swing: высота НЕ изменена (793.0, ChangeHeight=0)
+2026-06-02 10:25:20,765 - INFO -   fridge_cab_divider: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-02 10:25:20,822 - INFO -   Floor_13mm: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-02 10:25:20,944 - INFO -   Kick_plate: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-02 10:25:21,204 - INFO -   freestanding_fridge_cab: высота 2375.0 → 2475.0 (ChangeHeight=1)
+2026-06-02 10:25:21,461 - DEBUG - Установлено Height = 2475.0 для блока freestanding_fridge_cab
+2026-06-02 10:25:21,567 - INFO -   Upper_Height: 850.0 → 950.0
+2026-06-02 10:25:21,596 - DEBUG - Свойство Upper_Height не найдено или только для чтения
+2026-06-02 10:25:21,693 - DEBUG - Установлено Opening_Height = 2538.0 для блока HeightsForCabs
+2026-06-02 10:25:21,733 - INFO - ✅ Высота увеличена на 100.0 мм
+Изменено блоков: 4
+Пропущено (ChangeHeight=0): upper_filler, countertop_by, countertop20, btm_cab_dwr, btm_cab_swing, fridge_cab_divider, Floor_13mm, Kick_plate
+2026-06-02 10:25:21,850 - INFO - Найдено динамических блоков: 13
+2026-06-02 10:25:29,956 - INFO - === Детальная информация о блоках ===
+2026-06-02 10:25:30,177 - INFO - Блок: HeightsForCabs
+2026-06-02 10:25:30,177 - INFO -   Тип: special, isBottom=False, isTop=False
+2026-06-02 10:25:30,177 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:25:30,177 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:25:30,613 - INFO - Блок: Hood_Cyclone_SC51424
+2026-06-02 10:25:30,613 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:25:30,613 - INFO -   Width=600.0, Height=950.0
+2026-06-02 10:25:30,613 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:25:30,924 - INFO - Блок: upper_filler
+2026-06-02 10:25:30,924 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:25:30,924 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:25:30,924 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:25:31,186 - INFO - Блок: upper_cab_swing
+2026-06-02 10:25:31,186 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:25:31,186 - INFO -   Width=530.0, Height=950.0
+2026-06-02 10:25:31,186 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:25:31,450 - INFO - Блок: upper_cab_swing
+2026-06-02 10:25:31,450 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:25:31,450 - INFO -   Width=660.0, Height=950.0
+2026-06-02 10:25:31,450 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:25:31,546 - INFO - Блок: countertop_by
+2026-06-02 10:25:31,546 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:25:31,546 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:25:31,546 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:25:31,707 - INFO - Блок: countertop20
+2026-06-02 10:25:31,707 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:25:31,707 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:25:31,707 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:25:32,111 - INFO - Блок: btm_cab_dwr
+2026-06-02 10:25:32,111 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:25:32,111 - INFO -   Width=530.0, Height=793.0
+2026-06-02 10:25:32,111 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:25:32,495 - INFO - Блок: btm_cab_swing
+2026-06-02 10:25:32,495 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:25:32,495 - INFO -   Width=660.0, Height=793.0
+2026-06-02 10:25:32,495 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:25:32,843 - INFO - Блок: fridge_cab_divider
+2026-06-02 10:25:32,843 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:25:32,843 - INFO -   Width=650.0, Height=0.0
+2026-06-02 10:25:32,843 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:25:32,959 - INFO - Блок: Floor_13mm
+2026-06-02 10:25:32,959 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:25:32,959 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:25:32,959 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:25:33,226 - INFO - Блок: Kick_plate
+2026-06-02 10:25:33,226 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:25:33,226 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:25:33,226 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:25:33,747 - INFO - Блок: freestanding_fridge_cab
+2026-06-02 10:25:33,747 - INFO -   Тип: full, isBottom=True, isTop=True
+2026-06-02 10:25:33,747 - INFO -   Width=650.0, Height=2475.0
+2026-06-02 10:25:33,747 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:27:17,946 - INFO - Найдено динамических блоков: 1
+2026-06-02 10:28:56,432 - INFO - Попытка подключения к AutoCAD...
+2026-06-02 10:28:56,444 - INFO - ✅ Подключено к запущенному AutoCAD
+2026-06-02 10:29:07,431 - INFO - Найдено динамических блоков: 13
+2026-06-02 10:29:15,302 - INFO - === Детальная информация о блоках ===
+2026-06-02 10:29:15,516 - INFO - Блок: HeightsForCabs
+2026-06-02 10:29:15,516 - INFO -   Тип: special, isBottom=False, isTop=False
+2026-06-02 10:29:15,516 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:29:15,516 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:29:15,932 - INFO - Блок: Hood_Cyclone_SC51424
+2026-06-02 10:29:15,932 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:29:15,932 - INFO -   Width=600.0, Height=850.0
+2026-06-02 10:29:15,932 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:29:16,229 - INFO - Блок: upper_filler
+2026-06-02 10:29:16,229 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:29:16,229 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:29:16,229 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:29:16,489 - INFO - Блок: upper_cab_swing
+2026-06-02 10:29:16,489 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:29:16,489 - INFO -   Width=480.0, Height=850.0
+2026-06-02 10:29:16,489 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:29:16,735 - INFO - Блок: upper_cab_swing
+2026-06-02 10:29:16,735 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:29:16,735 - INFO -   Width=610.0, Height=850.0
+2026-06-02 10:29:16,735 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:29:16,824 - INFO - Блок: countertop_by
+2026-06-02 10:29:16,824 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:29:16,824 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:29:16,824 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:29:16,977 - INFO - Блок: countertop20
+2026-06-02 10:29:16,977 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:29:16,977 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:29:16,977 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:29:17,365 - INFO - Блок: btm_cab_dwr
+2026-06-02 10:29:17,365 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:29:17,365 - INFO -   Width=480.0, Height=793.0
+2026-06-02 10:29:17,365 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:29:17,738 - INFO - Блок: btm_cab_swing
+2026-06-02 10:29:17,738 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:29:17,738 - INFO -   Width=610.0, Height=793.0
+2026-06-02 10:29:17,739 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:29:18,077 - INFO - Блок: fridge_cab_divider
+2026-06-02 10:29:18,077 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:29:18,077 - INFO -   Width=650.0, Height=0.0
+2026-06-02 10:29:18,077 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:29:18,187 - INFO - Блок: Floor_13mm
+2026-06-02 10:29:18,187 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:29:18,187 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:29:18,187 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:29:18,446 - INFO - Блок: Kick_plate
+2026-06-02 10:29:18,446 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:29:18,446 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:29:18,446 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:29:18,949 - INFO - Блок: freestanding_fridge_cab
+2026-06-02 10:29:18,949 - INFO -   Тип: full, isBottom=True, isTop=True
+2026-06-02 10:29:18,949 - INFO -   Width=650.0, Height=2375.0
+2026-06-02 10:29:18,949 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:29:42,622 - INFO - === Применение ширины к нижней линии: target=1840.0 ===
+2026-06-02 10:29:43,645 - INFO - Нижняя линия: 1740.0 из ['btm_cab_dwr: 480.0', 'btm_cab_swing: 610.0', 'freestanding_fridge_cab: 650.0']
+2026-06-02 10:29:43,830 - INFO - Расширяемые блоки (ChangeWidth=1): 2 из 3
+2026-06-02 10:29:43,830 - INFO - Нужно увеличить на 100.0, инкремент на блок: 50.000
+2026-06-02 10:29:43,862 - INFO -   btm_cab_dwr: 480.0 → 530.0
+2026-06-02 10:29:44,013 - DEBUG - Установлено Width = 530.0000000000002 для блока btm_cab_dwr
+2026-06-02 10:29:44,107 - INFO -   btm_cab_swing: 610.0 → 660.0
+2026-06-02 10:29:44,361 - DEBUG - Установлено Width = 659.9999999999998 для блока btm_cab_swing
+2026-06-02 10:29:45,035 - INFO - Результат: 1740.0 → 1840.0
+2026-06-02 10:29:45,082 - INFO - Найдено динамических блоков: 13
+2026-06-02 10:29:52,990 - INFO - === Детальная информация о блоках ===
+2026-06-02 10:29:53,207 - INFO - Блок: HeightsForCabs
+2026-06-02 10:29:53,207 - INFO -   Тип: special, isBottom=False, isTop=False
+2026-06-02 10:29:53,207 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:29:53,207 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:29:53,637 - INFO - Блок: Hood_Cyclone_SC51424
+2026-06-02 10:29:53,637 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:29:53,637 - INFO -   Width=600.0, Height=850.0
+2026-06-02 10:29:53,637 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:29:53,951 - INFO - Блок: upper_filler
+2026-06-02 10:29:53,951 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:29:53,951 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:29:53,951 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:29:54,210 - INFO - Блок: upper_cab_swing
+2026-06-02 10:29:54,210 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:29:54,210 - INFO -   Width=480.0, Height=850.0
+2026-06-02 10:29:54,210 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:29:54,476 - INFO - Блок: upper_cab_swing
+2026-06-02 10:29:54,476 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:29:54,477 - INFO -   Width=610.0, Height=850.0
+2026-06-02 10:29:54,477 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:29:54,573 - INFO - Блок: countertop_by
+2026-06-02 10:29:54,573 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:29:54,573 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:29:54,573 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:29:54,738 - INFO - Блок: countertop20
+2026-06-02 10:29:54,738 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:29:54,738 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:29:54,738 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:29:55,148 - INFO - Блок: btm_cab_dwr
+2026-06-02 10:29:55,148 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:29:55,148 - INFO -   Width=530.0, Height=793.0
+2026-06-02 10:29:55,148 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:29:55,540 - INFO - Блок: btm_cab_swing
+2026-06-02 10:29:55,540 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:29:55,540 - INFO -   Width=660.0, Height=793.0
+2026-06-02 10:29:55,540 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:29:55,888 - INFO - Блок: fridge_cab_divider
+2026-06-02 10:29:55,888 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:29:55,888 - INFO -   Width=650.0, Height=0.0
+2026-06-02 10:29:55,888 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:29:56,003 - INFO - Блок: Floor_13mm
+2026-06-02 10:29:56,003 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:29:56,003 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:29:56,003 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:29:56,275 - INFO - Блок: Kick_plate
+2026-06-02 10:29:56,275 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:29:56,275 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:29:56,275 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:29:56,827 - INFO - Блок: freestanding_fridge_cab
+2026-06-02 10:29:56,827 - INFO -   Тип: full, isBottom=True, isTop=True
+2026-06-02 10:29:56,827 - INFO -   Width=650.0, Height=2375.0
+2026-06-02 10:29:56,827 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:30:02,510 - INFO - === Обновление спецэлементов ===
+2026-06-02 10:30:03,471 - INFO - Чистые нижние: 1190.0 из ['btm_cab_dwr: 530.0', 'btm_cab_swing: 660.0']
+2026-06-02 10:30:04,515 - INFO - Чистые верхние: 1690.0 из ['Hood_Cyclone_SC51424: 600.0', 'upper_filler: 0.0', 'upper_cab_swing: 480.0', 'upper_cab_swing: 610.0']
+2026-06-02 10:30:04,515 - INFO - Чистые нижние (столешница/плинтус): 1190.0
+2026-06-02 10:30:04,515 - INFO - Чистые верхние (верхняя планка): 1690.0
+2026-06-02 10:30:05,061 - DEBUG - Установлено upper_filler_w = 1690.0 для блока upper_filler
+2026-06-02 10:30:05,078 - INFO -   upper_filler.upper_filler_w = 1690.0
+2026-06-02 10:30:05,283 - DEBUG - Установлено Recalculated_Width = 1690.0 для блока upper_filler
+2026-06-02 10:30:05,294 - INFO -   upper_filler.Recalculated_Width = 1690.0 (top)
+2026-06-02 10:30:05,774 - DEBUG - Установлено countertop_w = 1190.0 для блока countertop20
+2026-06-02 10:30:05,779 - INFO -   countertop20.countertop_w = 1190.0
+2026-06-02 10:30:06,726 - DEBUG - Установлено kick_plate_w = 1190.0 для блока Kick_plate
+2026-06-02 10:30:06,735 - INFO -   Kick_plate.kick_plate_w = 1190.0
+2026-06-02 10:30:17,086 - INFO - === Применение ширины к верхней линии: target=2440.0 ===
+2026-06-02 10:30:18,219 - INFO - Верхняя линия: 2340.0 из ['Hood_Cyclone_SC51424: 600.0', 'upper_filler: 0.0', 'upper_cab_swing: 480.0', 'upper_cab_swing: 610.0', 'freestanding_fridge_cab: 650.0']
+2026-06-02 10:30:18,454 - INFO - Расширяемые блоки (ChangeWidth=1): 2 из 5
+2026-06-02 10:30:18,454 - INFO - Нужно увеличить на 100.0, инкремент на блок: 50.000
+2026-06-02 10:30:18,474 - INFO -   upper_cab_swing: 480.0 → 530.0
+2026-06-02 10:30:18,632 - DEBUG - Установлено Width = 530.0 для блока upper_cab_swing
+2026-06-02 10:30:18,696 - INFO -   upper_cab_swing: 610.0 → 660.0
+2026-06-02 10:30:18,862 - DEBUG - Установлено Width = 660.0 для блока upper_cab_swing
+2026-06-02 10:30:19,607 - INFO - Результат: 2340.0 → 2440.0
+2026-06-02 10:30:19,652 - INFO - Найдено динамических блоков: 13
+2026-06-02 10:30:27,474 - INFO - === Детальная информация о блоках ===
+2026-06-02 10:30:27,706 - INFO - Блок: HeightsForCabs
+2026-06-02 10:30:27,706 - INFO -   Тип: special, isBottom=False, isTop=False
+2026-06-02 10:30:27,706 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:30:27,706 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:30:28,143 - INFO - Блок: Hood_Cyclone_SC51424
+2026-06-02 10:30:28,144 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:30:28,144 - INFO -   Width=600.0, Height=850.0
+2026-06-02 10:30:28,144 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:30:28,453 - INFO - Блок: upper_filler
+2026-06-02 10:30:28,453 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:30:28,453 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:30:28,453 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:30:28,722 - INFO - Блок: upper_cab_swing
+2026-06-02 10:30:28,722 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:30:28,722 - INFO -   Width=530.0, Height=850.0
+2026-06-02 10:30:28,722 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:30:28,993 - INFO - Блок: upper_cab_swing
+2026-06-02 10:30:28,993 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:30:28,993 - INFO -   Width=660.0, Height=850.0
+2026-06-02 10:30:28,993 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:30:29,087 - INFO - Блок: countertop_by
+2026-06-02 10:30:29,087 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:30:29,087 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:30:29,087 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:30:29,250 - INFO - Блок: countertop20
+2026-06-02 10:30:29,250 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:30:29,250 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:30:29,250 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:30:29,666 - INFO - Блок: btm_cab_dwr
+2026-06-02 10:30:29,666 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:30:29,666 - INFO -   Width=530.0, Height=793.0
+2026-06-02 10:30:29,666 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:30:30,058 - INFO - Блок: btm_cab_swing
+2026-06-02 10:30:30,058 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:30:30,058 - INFO -   Width=660.0, Height=793.0
+2026-06-02 10:30:30,058 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:30:30,408 - INFO - Блок: fridge_cab_divider
+2026-06-02 10:30:30,408 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:30:30,408 - INFO -   Width=650.0, Height=0.0
+2026-06-02 10:30:30,408 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:30:30,525 - INFO - Блок: Floor_13mm
+2026-06-02 10:30:30,525 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:30:30,525 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:30:30,525 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:30:30,802 - INFO - Блок: Kick_plate
+2026-06-02 10:30:30,803 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:30:30,803 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:30:30,803 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:30:31,324 - INFO - Блок: freestanding_fridge_cab
+2026-06-02 10:30:31,324 - INFO -   Тип: full, isBottom=True, isTop=True
+2026-06-02 10:30:31,324 - INFO -   Width=650.0, Height=2375.0
+2026-06-02 10:30:31,324 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:30:37,101 - INFO - === Обновление спецэлементов ===
+2026-06-02 10:30:38,071 - INFO - Чистые нижние: 1190.0 из ['btm_cab_dwr: 530.0', 'btm_cab_swing: 660.0']
+2026-06-02 10:30:39,147 - INFO - Чистые верхние: 1790.0 из ['Hood_Cyclone_SC51424: 600.0', 'upper_filler: 0.0', 'upper_cab_swing: 530.0', 'upper_cab_swing: 660.0']
+2026-06-02 10:30:39,147 - INFO - Чистые нижние (столешница/плинтус): 1190.0
+2026-06-02 10:30:39,147 - INFO - Чистые верхние (верхняя планка): 1790.0
+2026-06-02 10:30:39,590 - DEBUG - Установлено upper_filler_w = 1790.0 для блока upper_filler
+2026-06-02 10:30:39,602 - INFO -   upper_filler.upper_filler_w = 1790.0
+2026-06-02 10:30:39,787 - DEBUG - Установлено Recalculated_Width = 1790.0 для блока upper_filler
+2026-06-02 10:30:39,796 - INFO -   upper_filler.Recalculated_Width = 1790.0 (top)
+2026-06-02 10:30:40,186 - DEBUG - Установлено countertop_w = 1190.0 для блока countertop20
+2026-06-02 10:30:40,191 - INFO -   countertop20.countertop_w = 1190.0
+2026-06-02 10:30:41,058 - DEBUG - Установлено kick_plate_w = 1190.0 для блока Kick_plate
+2026-06-02 10:30:41,068 - INFO -   Kick_plate.kick_plate_w = 1190.0
+2026-06-02 10:30:48,768 - INFO - === Применение общей высоты: target=2538.0 ===
+2026-06-02 10:30:48,795 - INFO - Текущая Opening_Height: 2438.0, дельта: 100.0
+2026-06-02 10:30:49,003 - INFO -   Hood_Cyclone_SC51424: высота 850.0 → 950.0 (ChangeHeight=1)
+2026-06-02 10:30:49,227 - DEBUG - Установлено Height = 950.0 для блока Hood_Cyclone_SC51424
+2026-06-02 10:30:49,422 - INFO -   upper_filler: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-02 10:30:49,553 - INFO -   upper_cab_swing: высота 850.0 → 950.0 (ChangeHeight=1)
+2026-06-02 10:30:49,598 - DEBUG - Установлено Height = 950.0 для блока upper_cab_swing
+2026-06-02 10:30:49,749 - INFO -   upper_cab_swing: высота 850.0 → 950.0 (ChangeHeight=1)
+2026-06-02 10:30:49,800 - DEBUG - Установлено Height = 950.0 для блока upper_cab_swing
+2026-06-02 10:30:49,863 - INFO -   countertop_by: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-02 10:30:49,933 - INFO -   countertop20: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-02 10:30:50,158 - INFO -   btm_cab_dwr: высота НЕ изменена (793.0, ChangeHeight=0)
+2026-06-02 10:30:50,339 - INFO -   btm_cab_swing: высота НЕ изменена (793.0, ChangeHeight=0)
+2026-06-02 10:30:50,536 - INFO -   fridge_cab_divider: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-02 10:30:50,587 - INFO -   Floor_13mm: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-02 10:30:50,706 - INFO -   Kick_plate: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-02 10:30:50,960 - INFO -   freestanding_fridge_cab: высота 2375.0 → 2475.0 (ChangeHeight=1)
+2026-06-02 10:30:51,251 - DEBUG - Установлено Height = 2475.0 для блока freestanding_fridge_cab
+2026-06-02 10:30:51,346 - INFO -   Upper_Height: 850.0 → 950.0
+2026-06-02 10:30:51,370 - DEBUG - Свойство Upper_Height не найдено или только для чтения
+2026-06-02 10:30:51,459 - DEBUG - Установлено Opening_Height = 2538.0 для блока HeightsForCabs
+2026-06-02 10:30:51,494 - INFO - ✅ Высота увеличена на 100.0 мм
+Изменено блоков: 4
+Пропущено (ChangeHeight=0): upper_filler, countertop_by, countertop20, btm_cab_dwr, btm_cab_swing, fridge_cab_divider, Floor_13mm, Kick_plate
+2026-06-02 10:30:51,594 - INFO - Найдено динамических блоков: 13
+2026-06-02 10:30:59,585 - INFO - === Детальная информация о блоках ===
+2026-06-02 10:30:59,804 - INFO - Блок: HeightsForCabs
+2026-06-02 10:30:59,804 - INFO -   Тип: special, isBottom=False, isTop=False
+2026-06-02 10:30:59,804 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:30:59,804 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:31:00,229 - INFO - Блок: Hood_Cyclone_SC51424
+2026-06-02 10:31:00,230 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:31:00,230 - INFO -   Width=600.0, Height=950.0
+2026-06-02 10:31:00,230 - INFO -   ChangeWidth=False, ChangeHeight=True
+2026-06-02 10:31:00,550 - INFO - Блок: upper_filler
+2026-06-02 10:31:00,550 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:31:00,550 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:31:00,550 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:31:00,819 - INFO - Блок: upper_cab_swing
+2026-06-02 10:31:00,819 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:31:00,819 - INFO -   Width=530.0, Height=950.0
+2026-06-02 10:31:00,819 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:31:01,087 - INFO - Блок: upper_cab_swing
+2026-06-02 10:31:01,087 - INFO -   Тип: top, isBottom=False, isTop=True
+2026-06-02 10:31:01,087 - INFO -   Width=660.0, Height=950.0
+2026-06-02 10:31:01,087 - INFO -   ChangeWidth=True, ChangeHeight=True
+2026-06-02 10:31:01,183 - INFO - Блок: countertop_by
+2026-06-02 10:31:01,183 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:31:01,183 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:31:01,183 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:31:01,343 - INFO - Блок: countertop20
+2026-06-02 10:31:01,343 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:31:01,343 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:31:01,343 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:31:01,745 - INFO - Блок: btm_cab_dwr
+2026-06-02 10:31:01,745 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:31:01,745 - INFO -   Width=530.0, Height=793.0
+2026-06-02 10:31:01,745 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:31:02,132 - INFO - Блок: btm_cab_swing
+2026-06-02 10:31:02,132 - INFO -   Тип: bottom, isBottom=True, isTop=False
+2026-06-02 10:31:02,132 - INFO -   Width=660.0, Height=793.0
+2026-06-02 10:31:02,132 - INFO -   ChangeWidth=True, ChangeHeight=False
+2026-06-02 10:31:02,481 - INFO - Блок: fridge_cab_divider
+2026-06-02 10:31:02,481 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:31:02,481 - INFO -   Width=650.0, Height=0.0
+2026-06-02 10:31:02,481 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:31:02,598 - INFO - Блок: Floor_13mm
+2026-06-02 10:31:02,599 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:31:02,599 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:31:02,599 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:31:02,873 - INFO - Блок: Kick_plate
+2026-06-02 10:31:02,873 - INFO -   Тип: unknown, isBottom=False, isTop=False
+2026-06-02 10:31:02,873 - INFO -   Width=0.0, Height=0.0
+2026-06-02 10:31:02,873 - INFO -   ChangeWidth=False, ChangeHeight=False
+2026-06-02 10:31:03,388 - INFO - Блок: freestanding_fridge_cab
+2026-06-02 10:31:03,389 - INFO -   Тип: full, isBottom=True, isTop=True
+2026-06-02 10:31:03,389 - INFO -   Width=650.0, Height=2475.0
+2026-06-02 10:31:03,389 - INFO -   ChangeWidth=False, ChangeHeight=True
