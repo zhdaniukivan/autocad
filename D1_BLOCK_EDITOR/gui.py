@@ -4,6 +4,7 @@ import json
 from autocad_handler import AutoCADHandler
 import win32com.client
 import logging
+import time
 from datetime import datetime
 
 
@@ -72,7 +73,7 @@ class BlockEditorGUI:
         self.tree.heading('width', text='Ширина (мм)')
         self.tree.heading('height', text='Высота (мм)')
         self.tree.heading('changeW', text='ChangeWidth')
-        self.tree.heading('changeD', text='ChangeDepth')
+        self.tree.heading('changeD', text='ChangeHeight')  # исправлено название для ясности
         self.tree.column('type', width=200)
         self.tree.column('width', width=100)
         self.tree.column('height', width=100)
@@ -147,6 +148,14 @@ class BlockEditorGUI:
                                           command=self.apply_overall_height,
                                           bg='#2e7d32', fg='white')
         self.apply_height_btn.pack(side='left', padx=5)
+
+        # Новая кнопка "Применить все"
+        all_frame = tk.Frame(group_ctrl, bg='#1e1e1e')
+        all_frame.pack(fill='x', padx=10, pady=8)
+        self.apply_all_btn = tk.Button(all_frame, text="🚀 Применить все (низ/верх + высота)",
+                                       command=self.apply_all_operations,
+                                       bg='#ff8c00', fg='white', font=('Segoe UI', 10, 'bold'))
+        self.apply_all_btn.pack(side='left', padx=5)
 
         # Обновление спецэлементов
         update_frame = tk.Frame(group_ctrl, bg='#1e1e1e')
@@ -293,7 +302,7 @@ class BlockEditorGUI:
                 f"{info['width']:.1f}",
                 f"{info['height']:.1f}",
                 "✅" if info['changeWidth'] else "❌",
-                "✅" if info['changeHeight'] else "❌"  # было changeDepth, стало changeHeight
+                "✅" if info['changeHeight'] else "❌"
             ))
 
     def update_statistics(self):
@@ -385,6 +394,66 @@ class BlockEditorGUI:
             messagebox.showinfo("Ничего не изменено", msg)
             self.update_status(msg)
 
+    # ---------- НОВЫЙ МЕТОД: Применить все операции последовательно с таймером ----------
+    def apply_all_operations(self):
+        if not self.current_blocks:
+            messagebox.showinfo("Нет блоков", "Сначала обновите выделение из AutoCAD")
+            return
+
+        # Фиксируем текущий список блоков (не перечитываем)
+        blocks = self.current_blocks[:]
+        self.update_status("🚀 Запуск пакетного изменения...")
+        self.root.update()
+
+        bottom_val = self.target_width_bottom_var.get().strip()
+        top_val = self.target_width_top_var.get().strip()
+        height_val = self.target_height_var.get().strip()
+
+        start_time = time.time()
+
+        # 1. Нижняя ширина (с обновлением спецэлементов внутри)
+        if bottom_val:
+            try:
+                target = float(bottom_val)
+                self.update_status(f"📏 Нижняя линия: {target} мм...")
+                self.apply_target_width_bottom()  # внутри есть update_special_elements
+                # time.sleep(0.2)
+            except ValueError:
+                self.update_status("❌ Нижняя линия: не число")
+
+        # 2. Верхняя ширина (с обновлением спецэлементов внутри)
+        if top_val:
+            try:
+                target = float(top_val)
+                self.update_status(f"📏 Верхняя линия: {target} мм...")
+                self.apply_target_width_top()  # внутри есть update_special_elements
+                # time.sleep(0.2)
+            except ValueError:
+                self.update_status("❌ Верхняя линия: не число")
+
+        # 3. Общая высота
+        if height_val:
+            try:
+                target = float(height_val)
+                self.update_status(f"⬆️ Высота: {target} мм...")
+                # Прямой вызов метода handler без обновления GUI
+                success, msg = self.handler.apply_overall_height(blocks, target)
+                self.update_status(msg)
+                # time.sleep(0.2)
+            except ValueError:
+                self.update_status("❌ Высота: не число")
+
+        # 4. *** КЛЮЧЕВОЙ МОМЕНТ: принудительно обновляем спецэлементы после высоты ***
+        self.update_status("🔄 Обновление спецэлементов (столешница, плинтус, планки)...")
+        self.handler.update_special_elements(blocks)
+        # time.sleep(0.1)
+
+        # 5. Финальная регенерация и синхронизация GUI
+        self.handler.doc.Regen(1)
+        self.refresh_selection()  # обновляем таблицу и статистику
+
+        elapsed = time.time() - start_time
+        self.update_status(f"✅ Пакетное изменение завершено за {elapsed:.1f} сек")
     # ---------- Режим одного блока ----------
     def select_single_block(self):
         blocks = self.handler.get_selected_blocks()
