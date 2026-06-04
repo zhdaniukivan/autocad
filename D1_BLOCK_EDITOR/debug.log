@@ -1608,3 +1608,5 @@
 Изменено блоков: 7
 Пропущено (ChangeHeight=0): Gen5_linear_LED, Gen5_linear_LED, btm_cab_swing, btm_cab_swing, upper_filler, countertop_by, countertop20, btm_cab_dwr, btm_cab_swing, Floor_13mm, Kick_plate
 2026-06-04 11:08:55,745 - INFO - Найдено динамических блоков: 19
+2026-06-04 12:12:43,836 - INFO - Попытка подключения к AutoCAD...
+2026-06-04 12:12:43,848 - INFO - ✅ Подключено к запущенному AutoCAD
