@@ -15,13 +15,16 @@ a = Analysis(
         'gui',
         'autocad_handler',
         'tkinter',
+        '_tkinter',
         'tkinter.ttk',
+        'tkinter.messagebox',     # ← Добавь эту строку
     ],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
     excludes=[],
     noarchive=False,
+    optimize=0,
 )
 
 pyz = PYZ(a.pure)
@@ -39,13 +42,13 @@ exe = EXE(
     upx=True,
     upx_exclude=[],
     runtime_tmpdir=None,
-    console=False,   # Если нужна отладка, временно поставьте True
+    console=False,           # Поставь True для отладки
     disable_windowed_traceback=False,
     argv_emulation=False,
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon='icon.ico',  # Укажите путь к иконке, если есть
+    # icon='icon.ico',       # раскомментируй, если есть иконка
 )
 
 coll = COLLECT(

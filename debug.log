@@ -1,4 +1,318 @@
-2026-06-04 12:16:57,246 - INFO - Попытка подключения к AutoCAD...
-2026-06-04 12:16:57,257 - INFO - ✅ Подключено к запущенному AutoCAD
-2026-06-04 12:25:27,703 - INFO - Попытка подключения к AutoCAD...
-2026-06-04 12:25:27,712 - INFO - ✅ Подключено к запущенному AutoCAD
+2026-06-04 15:28:09,772 - INFO - Попытка подключения к AutoCAD...
+2026-06-04 15:28:09,781 - INFO - ✅ Подключено к уже запущенному AutoCAD
+2026-06-04 15:28:16,718 - INFO - Найдено динамических блоков: 19
+2026-06-04 15:28:41,134 - DEBUG - Установлено Width = 643.3333333333335
+2026-06-04 15:28:41,265 - DEBUG - Установлено Width = 633.3333333333333
+2026-06-04 15:28:41,381 - DEBUG - Установлено Width = 513.3333333333335
+2026-06-04 15:28:44,749 - DEBUG - Установлено Width = 643.3333333332222
+2026-06-04 15:28:44,819 - DEBUG - Установлено Width = 513.3333333332222
+2026-06-04 15:28:44,907 - DEBUG - Установлено Width = 643.3333333335557
+2026-06-04 15:28:51,951 - DEBUG - Установлено upper_filler_w = 2400.0
+2026-06-04 15:28:52,772 - DEBUG - Установлено countertop_w = 2400.0
+2026-06-04 15:28:54,063 - DEBUG - Установлено kickplate_w = 2400.0
+2026-06-04 15:28:54,618 - INFO - Найдено динамических блоков: 19
+2026-06-04 15:29:08,246 - DEBUG - Установлено Height = 880.0
+2026-06-04 15:29:08,674 - DEBUG - Установлено Height = 950.0
+2026-06-04 15:29:09,747 - DEBUG - Установлено Height = 950.0
+2026-06-04 15:29:10,124 - DEBUG - Установлено Height = 950.0
+2026-06-04 15:29:10,348 - DEBUG - Установлено Height = 950.0
+2026-06-04 15:29:11,387 - DEBUG - Установлено Height = 590.0
+2026-06-04 15:29:12,276 - DEBUG - Установлено Height = 2475.0
+2026-06-04 15:29:12,400 - DEBUG - Свойство Upper_Height не найдено или только для чтения
+2026-06-04 15:29:12,582 - DEBUG - Установлено Opening_Height = 2538.0
+2026-06-04 15:29:12,774 - INFO - Найдено динамических блоков: 19
+2026-06-04 15:39:19,788 - INFO - Попытка подключения к AutoCAD...
+2026-06-04 15:39:19,798 - INFO - ✅ Подключено к уже запущенному AutoCAD
+2026-06-04 15:39:31,911 - INFO - Найдено динамических блоков: 19
+2026-06-04 15:40:04,087 - INFO - === Применение ширины к нижней линии: target=3086.0 ===
+2026-06-04 15:40:05,051 - INFO -   ДО: левый край=0.0, правый край=2986.0, общая ширина=2986.0
+2026-06-04 15:40:05,051 - INFO -     btm_cab_swing: left=2376.0, right=2986.0, width=610.0
+2026-06-04 15:40:05,051 - INFO -     btm_cab_swing: left=2376.0, right=2976.0, width=600.0
+2026-06-04 15:40:05,051 - INFO -     btm_cab_dwr: left=1296.0, right=1776.0, width=480.0
+2026-06-04 15:40:05,051 - INFO -     btm_cab_swing: left=686.0, right=1296.0, width=610.0
+2026-06-04 15:40:05,051 - INFO -     freestanding_fridge_cab: left=0.0, right=686.0, width=686.0
+2026-06-04 15:40:06,751 - INFO - Нижняя линия: 2986.0 из ['btm_cab_swing: 610.0', 'btm_cab_swing: 600.0', 'btm_cab_dwr: 480.0', 'btm_cab_swing: 610.0', 'freestanding_fridge_cab: 686.0']
+2026-06-04 15:40:07,054 - INFO -   btm_cab_swing: 610.0 → 643.3
+2026-06-04 15:40:07,450 - DEBUG - Установлено Width = 643.3333333333335 для блока btm_cab_swing
+2026-06-04 15:40:07,531 - INFO -   btm_cab_swing: 600.0 → 633.3
+2026-06-04 15:40:08,086 - DEBUG - Установлено Width = 633.3333333333335 для блока btm_cab_swing
+2026-06-04 15:40:08,183 - INFO -   btm_cab_dwr: 480.0 → 513.3
+2026-06-04 15:40:08,780 - DEBUG - Установлено Width = 513.3333333333335 для блока btm_cab_dwr
+2026-06-04 15:40:09,835 - INFO -   ПОСЛЕ (до регена): левый край=0.0, правый край=3052.7, смещение левого края=+0.0
+2026-06-04 15:40:10,791 - INFO - Результат: 2986.0 → 3086.0
+2026-06-04 15:40:10,791 - INFO - === Применение ширины к верхней линии: target=3086.0 ===
+2026-06-04 15:40:12,513 - INFO - Верхняя линия: 2986.0 из ['upper_cab_swing: 610.0', 'Hood_Cyclone_SC51424: 600.0', 'upper_filler: 0.0', 'upper_cab_swing: 480.0', 'upper_cab_swing: 610.0', 'freestanding_fridge_cab: 686.0']
+2026-06-04 15:40:12,804 - INFO -   upper_cab_swing: 610.0 → 643.3
+2026-06-04 15:40:13,466 - DEBUG - Установлено Width = 643.3333333333334 для блока upper_cab_swing
+2026-06-04 15:40:13,556 - INFO -   upper_cab_swing: 480.0 → 513.3
+2026-06-04 15:40:14,069 - DEBUG - Установлено Width = 513.3333333333334 для блока upper_cab_swing
+2026-06-04 15:40:14,143 - INFO -   upper_cab_swing: 610.0 → 643.3
+2026-06-04 15:40:14,716 - DEBUG - Установлено Width = 643.3333333333334 для блока upper_cab_swing
+2026-06-04 15:40:15,765 - INFO - Результат: 2986.0 → 3086.0
+2026-06-04 15:40:21,963 - INFO - === Применение общей высоты: target=2538.0 ===
+2026-06-04 15:40:22,273 - INFO -   Gen5_linear_LED: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-04 15:40:22,556 - INFO -   Gen5_linear_LED: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-04 15:40:22,795 - INFO -   duct_cover_millwork: высота 780.0 → 880.0 (ChangeHeight=1)
+2026-06-04 15:40:23,305 - DEBUG - Установлено Height = 880.0 для блока duct_cover_millwork
+2026-06-04 15:40:23,540 - INFO -   btm_cab_swing: высота НЕ изменена (793.0, ChangeHeight=0)
+2026-06-04 15:40:23,675 - INFO -   upper_cab_swing: высота 850.0 → 950.0 (ChangeHeight=1)
+2026-06-04 15:40:23,722 - DEBUG - Установлено Height = 950.0 для блока upper_cab_swing
+2026-06-04 15:40:23,903 - INFO -   btm_cab_swing: высота НЕ изменена (793.0, ChangeHeight=0)
+2026-06-04 15:40:24,099 - INFO -   Hood_Cyclone_SC51424: высота 850.0 → 950.0 (ChangeHeight=1)
+2026-06-04 15:40:24,842 - DEBUG - Установлено Height = 950.0000000000002 для блока Hood_Cyclone_SC51424
+2026-06-04 15:40:24,992 - INFO -   upper_filler: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-04 15:40:25,119 - INFO -   upper_cab_swing: высота 850.0 → 950.0 (ChangeHeight=1)
+2026-06-04 15:40:25,164 - DEBUG - Установлено Height = 950.0000000000002 для блока upper_cab_swing
+2026-06-04 15:40:25,313 - INFO -   upper_cab_swing: высота 850.0 → 950.0 (ChangeHeight=1)
+2026-06-04 15:40:25,367 - DEBUG - Установлено Height = 950.0 для блока upper_cab_swing
+2026-06-04 15:40:25,416 - INFO -   countertop_by: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-04 15:40:25,480 - INFO -   countertop20: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-04 15:40:25,674 - INFO -   btm_cab_dwr: высота НЕ изменена (793.0, ChangeHeight=0)
+2026-06-04 15:40:25,852 - INFO -   btm_cab_swing: высота НЕ изменена (793.0, ChangeHeight=0)
+2026-06-04 15:40:25,995 - INFO -   fridge_cab_divider: высота 490.0 → 590.0 (ChangeHeight=1)
+2026-06-04 15:40:26,384 - DEBUG - Установлено Height = 590.0 для блока fridge_cab_divider
+2026-06-04 15:40:26,490 - INFO -   Floor_13mm: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-04 15:40:26,606 - INFO -   Kick_plate: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-04 15:40:26,861 - INFO -   freestanding_fridge_cab: высота 2375.0 → 2475.0 (ChangeHeight=1)
+2026-06-04 15:40:27,314 - DEBUG - Установлено Height = 2475.0 для блока freestanding_fridge_cab
+2026-06-04 15:40:27,345 - INFO -   Upper_Height: 850.0 → 950.0
+2026-06-04 15:40:27,367 - DEBUG - Свойство Upper_Height не найдено или только для чтения
+2026-06-04 15:40:27,548 - DEBUG - Установлено Opening_Height = 2538.0 для блока HeightsForCabs
+2026-06-04 15:40:27,592 - INFO - ✅ Высота увеличена на 100.0 мм
+Изменено блоков: 7
+Пропущено (ChangeHeight=0): Gen5_linear_LED, Gen5_linear_LED, btm_cab_swing, btm_cab_swing, upper_filler, countertop_by, countertop20, btm_cab_dwr, btm_cab_swing, Floor_13mm, Kick_plate
+2026-06-04 15:40:27,669 - INFO - === Обновление спецэлементов ===
+2026-06-04 15:40:29,417 - INFO - Чистые нижние: 2400.0 из ['btm_cab_swing: 643.3', 'btm_cab_swing: 633.3', 'btm_cab_dwr: 513.3', 'btm_cab_swing: 610.0']
+2026-06-04 15:40:31,164 - INFO - Чистые верхние: 2400.0 из ['upper_cab_swing: 643.3', 'Hood_Cyclone_SC51424: 600.0', 'upper_filler: 0.0', 'upper_cab_swing: 513.3', 'upper_cab_swing: 643.3']
+2026-06-04 15:40:33,748 - DEBUG - Установлено upper_filler_w = 2399.9999999989996 для блока upper_filler
+2026-06-04 15:40:33,953 - DEBUG - Установлено Recalculated_Width = 2399.9999999989996 для блока upper_filler
+2026-06-04 15:40:34,818 - DEBUG - Установлено countertop_w = 2399.9999999989996 для блока countertop20
+2026-06-04 15:40:36,352 - DEBUG - Установлено kickplate_w = 2399.9999999989996 для блока Kick_plate
+2026-06-04 15:40:37,067 - INFO - Найдено динамических блоков: 19
+2026-06-04 15:45:27,700 - INFO - Попытка подключения к AutoCAD...
+2026-06-04 15:45:27,712 - INFO - ✅ Подключено к уже запущенному AutoCAD
+2026-06-04 15:45:36,293 - INFO - Найдено динамических блоков: 19
+2026-06-04 15:46:03,907 - INFO - === Применение ширины к нижней линии: target=3086.0 ===
+2026-06-04 15:46:05,042 - INFO -   ДО: левый край=0.0, правый край=2986.0, общая ширина=2986.0
+2026-06-04 15:46:05,042 - INFO -     btm_cab_swing: left=2376.0, right=2986.0, width=610.0
+2026-06-04 15:46:05,042 - INFO -     btm_cab_swing: left=2376.0, right=2976.0, width=600.0
+2026-06-04 15:46:05,042 - INFO -     btm_cab_dwr: left=1296.0, right=1776.0, width=480.0
+2026-06-04 15:46:05,042 - INFO -     btm_cab_swing: left=686.0, right=1296.0, width=610.0
+2026-06-04 15:46:05,042 - INFO -     freestanding_fridge_cab: left=0.0, right=686.0, width=686.0
+2026-06-04 15:46:07,051 - INFO - Нижняя линия: 2986.0 из ['btm_cab_swing: 610.0', 'btm_cab_swing: 600.0', 'btm_cab_dwr: 480.0', 'btm_cab_swing: 610.0', 'freestanding_fridge_cab: 686.0']
+2026-06-04 15:46:07,409 - INFO -   btm_cab_swing: 610.0 → 643.3
+2026-06-04 15:46:07,813 - DEBUG - Установлено Width = 643.3333333333335 для блока btm_cab_swing
+2026-06-04 15:46:07,908 - INFO -   btm_cab_swing: 600.0 → 633.3
+2026-06-04 15:46:08,470 - DEBUG - Установлено Width = 633.3333333333335 для блока btm_cab_swing
+2026-06-04 15:46:08,572 - INFO -   btm_cab_dwr: 480.0 → 513.3
+2026-06-04 15:46:09,169 - DEBUG - Установлено Width = 513.3333333333335 для блока btm_cab_dwr
+2026-06-04 15:46:10,399 - INFO -   ПОСЛЕ (до регена): левый край=0.0, правый край=3052.7, смещение левого края=+0.0
+2026-06-04 15:46:11,530 - INFO - Результат: 2986.0 → 3086.0
+2026-06-04 15:46:11,531 - INFO - === Применение ширины к верхней линии: target=3086.0 ===
+2026-06-04 15:46:13,565 - INFO - Верхняя линия: 2986.0 из ['upper_cab_swing: 610.0', 'Hood_Cyclone_SC51424: 600.0', 'upper_filler: 0.0', 'upper_cab_swing: 480.0', 'upper_cab_swing: 610.0', 'freestanding_fridge_cab: 686.0']
+2026-06-04 15:46:13,907 - INFO -   upper_cab_swing: 610.0 → 643.3
+2026-06-04 15:46:14,576 - DEBUG - Установлено Width = 643.3333333333334 для блока upper_cab_swing
+2026-06-04 15:46:14,680 - INFO -   upper_cab_swing: 480.0 → 513.3
+2026-06-04 15:46:15,180 - DEBUG - Установлено Width = 513.3333333333334 для блока upper_cab_swing
+2026-06-04 15:46:15,256 - INFO -   upper_cab_swing: 610.0 → 643.3
+2026-06-04 15:46:15,838 - DEBUG - Установлено Width = 643.3333333333334 для блока upper_cab_swing
+2026-06-04 15:46:17,074 - INFO - Результат: 2986.0 → 3086.0
+2026-06-04 15:46:21,351 - INFO - === Обновление спецэлементов ===
+2026-06-04 15:46:23,211 - INFO - Чистые нижние: 2400.0 из ['btm_cab_swing: 643.3', 'btm_cab_swing: 633.3', 'btm_cab_dwr: 513.3', 'btm_cab_swing: 610.0']
+2026-06-04 15:46:25,100 - INFO - Чистые верхние: 2400.0 из ['upper_cab_swing: 643.3', 'Hood_Cyclone_SC51424: 600.0', 'upper_filler: 0.0', 'upper_cab_swing: 513.3', 'upper_cab_swing: 643.3']
+2026-06-04 15:46:27,942 - DEBUG - Установлено upper_filler_w = 2399.999999999333 для блока upper_filler
+2026-06-04 15:46:28,198 - DEBUG - Установлено Recalculated_Width = 2399.999999999333 для блока upper_filler
+2026-06-04 15:46:29,141 - DEBUG - Установлено countertop_w = 2399.9999999989996 для блока countertop20
+2026-06-04 15:46:30,729 - DEBUG - Установлено kickplate_w = 2399.9999999989996 для блока Kick_plate
+2026-06-04 15:46:32,406 - INFO - === Применение общей высоты: target=2538.0 ===
+2026-06-04 15:46:32,777 - INFO -   Gen5_linear_LED: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-04 15:46:33,116 - INFO -   Gen5_linear_LED: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-04 15:46:33,409 - INFO -   duct_cover_millwork: высота 780.0 → 880.0 (ChangeHeight=1)
+2026-06-04 15:46:33,929 - DEBUG - Установлено Height = 880.0 для блока duct_cover_millwork
+2026-06-04 15:46:34,204 - INFO -   btm_cab_swing: высота НЕ изменена (793.0, ChangeHeight=0)
+2026-06-04 15:46:34,353 - INFO -   upper_cab_swing: высота 850.0 → 950.0 (ChangeHeight=1)
+2026-06-04 15:46:34,406 - DEBUG - Установлено Height = 950.0 для блока upper_cab_swing
+2026-06-04 15:46:34,618 - INFO -   btm_cab_swing: высота НЕ изменена (793.0, ChangeHeight=0)
+2026-06-04 15:46:34,857 - INFO -   Hood_Cyclone_SC51424: высота 850.0 → 950.0 (ChangeHeight=1)
+2026-06-04 15:46:35,553 - DEBUG - Установлено Height = 950.0 для блока Hood_Cyclone_SC51424
+2026-06-04 15:46:35,783 - INFO -   upper_filler: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-04 15:46:35,941 - INFO -   upper_cab_swing: высота 850.0 → 950.0 (ChangeHeight=1)
+2026-06-04 15:46:36,005 - DEBUG - Установлено Height = 950.0 для блока upper_cab_swing
+2026-06-04 15:46:36,199 - INFO -   upper_cab_swing: высота 850.0 → 950.0 (ChangeHeight=1)
+2026-06-04 15:46:36,255 - DEBUG - Установлено Height = 950.0 для блока upper_cab_swing
+2026-06-04 15:46:36,297 - INFO -   countertop_by: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-04 15:46:36,394 - INFO -   countertop20: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-04 15:46:36,619 - INFO -   btm_cab_dwr: высота НЕ изменена (793.0, ChangeHeight=0)
+2026-06-04 15:46:36,814 - INFO -   btm_cab_swing: высота НЕ изменена (793.0, ChangeHeight=0)
+2026-06-04 15:46:36,984 - INFO -   fridge_cab_divider: высота 490.0 → 590.0 (ChangeHeight=1)
+2026-06-04 15:46:37,418 - DEBUG - Установлено Height = 590.0 для блока fridge_cab_divider
+2026-06-04 15:46:37,486 - INFO -   Floor_13mm: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-04 15:46:37,630 - INFO -   Kick_plate: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-04 15:46:37,925 - INFO -   freestanding_fridge_cab: высота 2375.0 → 2475.0 (ChangeHeight=1)
+2026-06-04 15:46:38,400 - DEBUG - Установлено Height = 2475.0 для блока freestanding_fridge_cab
+2026-06-04 15:46:38,435 - INFO -   Upper_Height: 850.0 → 950.0
+2026-06-04 15:46:38,460 - DEBUG - Свойство Upper_Height не найдено или только для чтения
+2026-06-04 15:46:38,642 - DEBUG - Установлено Opening_Height = 2538.0 для блока HeightsForCabs
+2026-06-04 15:46:38,686 - INFO - ✅ Высота увеличена на 100.0 мм
+Изменено блоков: 7
+Пропущено (ChangeHeight=0): Gen5_linear_LED, Gen5_linear_LED, btm_cab_swing, btm_cab_swing, upper_filler, countertop_by, countertop20, btm_cab_dwr, btm_cab_swing, Floor_13mm, Kick_plate
+2026-06-04 15:46:42,917 - INFO - === Обновление спецэлементов ===
+2026-06-04 15:46:44,753 - INFO - Чистые нижние: 2400.0 из ['btm_cab_swing: 643.3', 'btm_cab_swing: 633.3', 'btm_cab_dwr: 513.3', 'btm_cab_swing: 610.0']
+2026-06-04 15:46:46,620 - INFO - Чистые верхние: 2400.0 из ['upper_cab_swing: 643.3', 'Hood_Cyclone_SC51424: 600.0', 'upper_filler: 0.0', 'upper_cab_swing: 513.3', 'upper_cab_swing: 643.3']
+2026-06-04 15:46:49,099 - DEBUG - Установлено upper_filler_w = 2399.999999998999 для блока upper_filler
+2026-06-04 15:46:49,290 - DEBUG - Установлено Recalculated_Width = 2399.999999998999 для блока upper_filler
+2026-06-04 15:46:49,846 - DEBUG - Установлено countertop_w = 2399.9999999989996 для блока countertop20
+2026-06-04 15:46:50,953 - DEBUG - Установлено kickplate_w = 2399.9999999989996 для блока Kick_plate
+2026-06-04 15:46:53,711 - INFO - Найдено динамических блоков: 19
+2026-06-04 15:47:44,098 - INFO - Найдено динамических блоков: 1
+2026-06-04 15:51:51,396 - INFO - Попытка подключения к AutoCAD...
+2026-06-04 15:51:51,404 - INFO - ✅ Подключено к уже запущенному AutoCAD
+2026-06-04 15:52:04,563 - INFO - Найдено динамических блоков: 19
+2026-06-04 15:52:29,646 - INFO - === Применение ширины к нижней линии: target=3086.0 ===
+2026-06-04 15:52:30,606 - INFO -   ДО: левый край=0.0, правый край=2986.0, общая ширина=2986.0
+2026-06-04 15:52:30,606 - INFO -     btm_cab_swing: left=2376.0, right=2986.0, width=610.0
+2026-06-04 15:52:30,606 - INFO -     btm_cab_swing: left=2376.0, right=2976.0, width=600.0
+2026-06-04 15:52:30,607 - INFO -     btm_cab_dwr: left=1296.0, right=1776.0, width=480.0
+2026-06-04 15:52:30,607 - INFO -     btm_cab_swing: left=686.0, right=1296.0, width=610.0
+2026-06-04 15:52:30,607 - INFO -     freestanding_fridge_cab: left=0.0, right=686.0, width=686.0
+2026-06-04 15:52:32,310 - INFO - Нижняя линия: 2986.0 из ['btm_cab_swing: 610.0', 'btm_cab_swing: 600.0', 'btm_cab_dwr: 480.0', 'btm_cab_swing: 610.0', 'freestanding_fridge_cab: 686.0']
+2026-06-04 15:52:32,617 - INFO -   btm_cab_swing: 610.0 → 643.3
+2026-06-04 15:52:33,040 - DEBUG - Установлено Width = 643.3333333333335 для блока btm_cab_swing
+2026-06-04 15:52:33,092 - INFO -   btm_cab_swing: 600.0 → 633.3
+2026-06-04 15:52:33,648 - DEBUG - Установлено Width = 633.3333333333335 для блока btm_cab_swing
+2026-06-04 15:52:33,747 - INFO -   btm_cab_dwr: 480.0 → 513.3
+2026-06-04 15:52:34,358 - DEBUG - Установлено Width = 513.3333333333335 для блока btm_cab_dwr
+2026-06-04 15:52:35,415 - INFO -   ПОСЛЕ (до регена): левый край=0.0, правый край=3052.7, смещение левого края=+0.0
+2026-06-04 15:52:36,380 - INFO - Результат: 2986.0 → 3086.0
+2026-06-04 15:52:36,380 - INFO - === Применение ширины к верхней линии: target=3086.0 ===
+2026-06-04 15:52:38,123 - INFO - Верхняя линия: 2986.0 из ['upper_cab_swing: 610.0', 'Hood_Cyclone_SC51424: 600.0', 'upper_filler: 0.0', 'upper_cab_swing: 480.0', 'upper_cab_swing: 610.0', 'freestanding_fridge_cab: 686.0']
+2026-06-04 15:52:38,414 - INFO -   upper_cab_swing: 610.0 → 643.3
+2026-06-04 15:52:39,085 - DEBUG - Установлено Width = 643.3333333333334 для блока upper_cab_swing
+2026-06-04 15:52:39,179 - INFO -   upper_cab_swing: 480.0 → 513.3
+2026-06-04 15:52:39,707 - DEBUG - Установлено Width = 513.3333333333334 для блока upper_cab_swing
+2026-06-04 15:52:39,785 - INFO -   upper_cab_swing: 610.0 → 643.3
+2026-06-04 15:52:40,372 - DEBUG - Установлено Width = 643.3333333333334 для блока upper_cab_swing
+2026-06-04 15:52:41,538 - INFO - Результат: 2986.0 → 3086.0
+2026-06-04 15:52:43,684 - INFO - === Обновление спецэлементов ===
+2026-06-04 15:52:45,244 - INFO - Чистые нижние: 2400.0 из ['btm_cab_swing: 643.3', 'btm_cab_swing: 633.3', 'btm_cab_dwr: 513.3', 'btm_cab_swing: 610.0']
+2026-06-04 15:52:46,839 - INFO - Чистые верхние: 2400.0 из ['upper_cab_swing: 643.3', 'Hood_Cyclone_SC51424: 600.0', 'upper_filler: 0.0', 'upper_cab_swing: 513.3', 'upper_cab_swing: 643.3']
+2026-06-04 15:52:49,350 - DEBUG - Установлено upper_filler_w = 2399.999999999333 для блока upper_filler
+2026-06-04 15:52:49,516 - DEBUG - Установлено Recalculated_Width = 2399.999999999333 для блока upper_filler
+2026-06-04 15:52:50,364 - DEBUG - Установлено countertop_w = 2399.9999999989996 для блока countertop20
+2026-06-04 15:52:51,787 - DEBUG - Установлено kickplate_w = 2399.9999999989996 для блока Kick_plate
+2026-06-04 15:52:52,890 - INFO - === Применение общей высоты: target=2538.0 ===
+2026-06-04 15:52:53,201 - INFO -   Gen5_linear_LED: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-04 15:52:53,483 - INFO -   Gen5_linear_LED: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-04 15:52:53,727 - INFO -   duct_cover_millwork: высота 780.0 → 880.0 (ChangeHeight=1)
+2026-06-04 15:52:54,246 - DEBUG - Установлено Height = 880.0 для блока duct_cover_millwork
+2026-06-04 15:52:54,487 - INFO -   btm_cab_swing: высота НЕ изменена (793.0, ChangeHeight=0)
+2026-06-04 15:52:54,615 - INFO -   upper_cab_swing: высота 850.0 → 950.0 (ChangeHeight=1)
+2026-06-04 15:52:54,661 - DEBUG - Установлено Height = 950.0 для блока upper_cab_swing
+2026-06-04 15:52:54,840 - INFO -   btm_cab_swing: высота НЕ изменена (793.0, ChangeHeight=0)
+2026-06-04 15:52:55,048 - INFO -   Hood_Cyclone_SC51424: высота 850.0 → 950.0 (ChangeHeight=1)
+2026-06-04 15:52:55,717 - DEBUG - Установлено Height = 950.0 для блока Hood_Cyclone_SC51424
+2026-06-04 15:52:55,930 - INFO -   upper_filler: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-04 15:52:56,058 - INFO -   upper_cab_swing: высота 850.0 → 950.0 (ChangeHeight=1)
+2026-06-04 15:52:56,105 - DEBUG - Установлено Height = 950.0 для блока upper_cab_swing
+2026-06-04 15:52:56,249 - INFO -   upper_cab_swing: высота 850.0 → 950.0 (ChangeHeight=1)
+2026-06-04 15:52:56,307 - DEBUG - Установлено Height = 950.0 для блока upper_cab_swing
+2026-06-04 15:52:56,357 - INFO -   countertop_by: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-04 15:52:56,422 - INFO -   countertop20: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-04 15:52:56,619 - INFO -   btm_cab_dwr: высота НЕ изменена (793.0, ChangeHeight=0)
+2026-06-04 15:52:56,793 - INFO -   btm_cab_swing: высота НЕ изменена (793.0, ChangeHeight=0)
+2026-06-04 15:52:56,937 - INFO -   fridge_cab_divider: высота 490.0 → 590.0 (ChangeHeight=1)
+2026-06-04 15:52:57,330 - DEBUG - Установлено Height = 590.0 для блока fridge_cab_divider
+2026-06-04 15:52:57,440 - INFO -   Floor_13mm: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-04 15:52:57,555 - INFO -   Kick_plate: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-04 15:52:57,806 - INFO -   freestanding_fridge_cab: высота 2375.0 → 2475.0 (ChangeHeight=1)
+2026-06-04 15:52:58,269 - DEBUG - Установлено Height = 2475.0 для блока freestanding_fridge_cab
+2026-06-04 15:52:58,299 - INFO -   Upper_Height: 850.0 → 950.0
+2026-06-04 15:52:58,319 - DEBUG - Свойство Upper_Height не найдено или только для чтения
+2026-06-04 15:52:58,508 - DEBUG - Установлено Opening_Height = 2538.0 для блока HeightsForCabs
+2026-06-04 15:52:58,553 - INFO - ✅ Высота увеличена на 100.0 мм
+Изменено блоков: 7
+Пропущено (ChangeHeight=0): Gen5_linear_LED, Gen5_linear_LED, btm_cab_swing, btm_cab_swing, upper_filler, countertop_by, countertop20, btm_cab_dwr, btm_cab_swing, Floor_13mm, Kick_plate
+2026-06-04 15:53:00,615 - INFO - === Обновление спецэлементов ===
+2026-06-04 15:53:02,167 - INFO - Чистые нижние: 2400.0 из ['btm_cab_swing: 643.3', 'btm_cab_swing: 633.3', 'btm_cab_dwr: 513.3', 'btm_cab_swing: 610.0']
+2026-06-04 15:53:03,772 - INFO - Чистые верхние: 2400.0 из ['upper_cab_swing: 643.3', 'Hood_Cyclone_SC51424: 600.0', 'upper_filler: 0.0', 'upper_cab_swing: 513.3', 'upper_cab_swing: 643.3']
+2026-06-04 15:53:05,871 - DEBUG - Установлено upper_filler_w = 2399.999999998999 для блока upper_filler
+2026-06-04 15:53:06,020 - DEBUG - Установлено Recalculated_Width = 2399.999999998999 для блока upper_filler
+2026-06-04 15:53:06,493 - DEBUG - Установлено countertop_w = 2399.9999999989996 для блока countertop20
+2026-06-04 15:53:07,442 - DEBUG - Установлено kickplate_w = 2399.9999999989996 для блока Kick_plate
+2026-06-04 15:53:09,618 - INFO - Найдено динамических блоков: 19
+2026-06-04 15:55:31,870 - INFO - Попытка подключения к AutoCAD...
+2026-06-04 15:55:31,880 - INFO - ✅ Подключено к уже запущенному AutoCAD
+2026-06-04 15:55:47,551 - INFO - Найдено динамических блоков: 0
+2026-06-04 15:55:51,834 - INFO - Найдено динамических блоков: 19
+2026-06-04 15:56:16,490 - INFO - === Применение ширины к нижней линии: target=3086.0 ===
+2026-06-04 15:56:17,667 - INFO -   ДО: левый край=0.0, правый край=2986.0, общая ширина=2986.0
+2026-06-04 15:56:17,667 - INFO -     btm_cab_swing: left=2376.0, right=2986.0, width=610.0
+2026-06-04 15:56:17,667 - INFO -     btm_cab_swing: left=2376.0, right=2976.0, width=600.0
+2026-06-04 15:56:17,667 - INFO -     btm_cab_dwr: left=1296.0, right=1776.0, width=480.0
+2026-06-04 15:56:17,667 - INFO -     btm_cab_swing: left=686.0, right=1296.0, width=610.0
+2026-06-04 15:56:17,667 - INFO -     freestanding_fridge_cab: left=0.0, right=686.0, width=686.0
+2026-06-04 15:56:19,702 - INFO - Нижняя линия: 2986.0 из ['btm_cab_swing: 610.0', 'btm_cab_swing: 600.0', 'btm_cab_dwr: 480.0', 'btm_cab_swing: 610.0', 'freestanding_fridge_cab: 686.0']
+2026-06-04 15:56:20,072 - INFO -   btm_cab_swing: 610.0 → 643.3
+2026-06-04 15:56:20,507 - DEBUG - Установлено Width = 643.3333333333335 для блока btm_cab_swing
+2026-06-04 15:56:20,567 - INFO -   btm_cab_swing: 600.0 → 633.3
+2026-06-04 15:56:21,144 - DEBUG - Установлено Width = 633.3333333333335 для блока btm_cab_swing
+2026-06-04 15:56:21,246 - INFO -   btm_cab_dwr: 480.0 → 513.3
+2026-06-04 15:56:21,841 - DEBUG - Установлено Width = 513.3333333333335 для блока btm_cab_dwr
+2026-06-04 15:56:23,104 - INFO -   ПОСЛЕ (до регена): левый край=0.0, правый край=3052.7, смещение левого края=+0.0
+2026-06-04 15:56:24,259 - INFO - Результат: 2986.0 → 3086.0
+2026-06-04 15:56:24,259 - INFO - === Применение ширины к верхней линии: target=3086.0 ===
+2026-06-04 15:56:26,325 - INFO - Верхняя линия: 2986.0 из ['upper_cab_swing: 610.0', 'Hood_Cyclone_SC51424: 600.0', 'upper_filler: 0.0', 'upper_cab_swing: 480.0', 'upper_cab_swing: 610.0', 'freestanding_fridge_cab: 686.0']
+2026-06-04 15:56:26,674 - INFO -   upper_cab_swing: 610.0 → 643.3
+2026-06-04 15:56:27,420 - DEBUG - Установлено Width = 643.3333333333334 для блока upper_cab_swing
+2026-06-04 15:56:27,457 - INFO -   upper_cab_swing: 480.0 → 513.3
+2026-06-04 15:56:27,962 - DEBUG - Установлено Width = 513.3333333333334 для блока upper_cab_swing
+2026-06-04 15:56:28,039 - INFO -   upper_cab_swing: 610.0 → 643.3
+2026-06-04 15:56:28,633 - DEBUG - Установлено Width = 643.3333333333334 для блока upper_cab_swing
+2026-06-04 15:56:29,883 - INFO - Результат: 2986.0 → 3086.0
+2026-06-04 15:56:31,352 - INFO - === Обновление спецэлементов ===
+2026-06-04 15:56:33,244 - INFO - Чистые нижние: 2400.0 из ['btm_cab_swing: 643.3', 'btm_cab_swing: 633.3', 'btm_cab_dwr: 513.3', 'btm_cab_swing: 610.0']
+2026-06-04 15:56:35,142 - INFO - Чистые верхние: 2400.0 из ['upper_cab_swing: 643.3', 'Hood_Cyclone_SC51424: 600.0', 'upper_filler: 0.0', 'upper_cab_swing: 513.3', 'upper_cab_swing: 643.3']
+2026-06-04 15:56:38,083 - DEBUG - Установлено upper_filler_w = 2399.999999999333 для блока upper_filler
+2026-06-04 15:56:38,286 - DEBUG - Установлено Recalculated_Width = 2399.999999999333 для блока upper_filler
+2026-06-04 15:56:39,211 - DEBUG - Установлено countertop_w = 2399.9999999989996 для блока countertop20
+2026-06-04 15:56:40,783 - DEBUG - Установлено kickplate_w = 2399.9999999989996 для блока Kick_plate
+2026-06-04 15:56:42,107 - INFO - === Применение общей высоты: target=2538.0 ===
+2026-06-04 15:56:42,481 - INFO -   Gen5_linear_LED: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-04 15:56:42,826 - INFO -   Gen5_linear_LED: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-04 15:56:43,127 - INFO -   duct_cover_millwork: высота 780.0 → 880.0 (ChangeHeight=1)
+2026-06-04 15:56:43,695 - DEBUG - Установлено Height = 880.0 для блока duct_cover_millwork
+2026-06-04 15:56:43,910 - INFO -   btm_cab_swing: высота НЕ изменена (793.0, ChangeHeight=0)
+2026-06-04 15:56:44,070 - INFO -   upper_cab_swing: высота 850.0 → 950.0 (ChangeHeight=1)
+2026-06-04 15:56:44,125 - DEBUG - Установлено Height = 950.0 для блока upper_cab_swing
+2026-06-04 15:56:44,339 - INFO -   btm_cab_swing: высота НЕ изменена (793.0, ChangeHeight=0)
+2026-06-04 15:56:44,575 - INFO -   Hood_Cyclone_SC51424: высота 850.0 → 950.0 (ChangeHeight=1)
+2026-06-04 15:56:45,259 - DEBUG - Установлено Height = 950.0 для блока Hood_Cyclone_SC51424
+2026-06-04 15:56:45,487 - INFO -   upper_filler: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-04 15:56:45,655 - INFO -   upper_cab_swing: высота 850.0 → 950.0 (ChangeHeight=1)
+2026-06-04 15:56:45,709 - DEBUG - Установлено Height = 950.0 для блока upper_cab_swing
+2026-06-04 15:56:45,877 - INFO -   upper_cab_swing: высота 850.0 → 950.0 (ChangeHeight=1)
+2026-06-04 15:56:45,933 - DEBUG - Установлено Height = 950.0 для блока upper_cab_swing
+2026-06-04 15:56:45,991 - INFO -   countertop_by: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-04 15:56:46,081 - INFO -   countertop20: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-04 15:56:46,316 - INFO -   btm_cab_dwr: высота НЕ изменена (793.0, ChangeHeight=0)
+2026-06-04 15:56:46,509 - INFO -   btm_cab_swing: высота НЕ изменена (793.0, ChangeHeight=0)
+2026-06-04 15:56:46,679 - INFO -   fridge_cab_divider: высота 490.0 → 590.0 (ChangeHeight=1)
+2026-06-04 15:56:47,076 - DEBUG - Установлено Height = 590.0 для блока fridge_cab_divider
+2026-06-04 15:56:47,188 - INFO -   Floor_13mm: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-04 15:56:47,329 - INFO -   Kick_plate: высота НЕ изменена (0.0, ChangeHeight=0)
+2026-06-04 15:56:47,639 - INFO -   freestanding_fridge_cab: высота 2375.0 → 2475.0 (ChangeHeight=1)
+2026-06-04 15:56:48,119 - DEBUG - Установлено Height = 2475.0 для блока freestanding_fridge_cab
+2026-06-04 15:56:48,154 - INFO -   Upper_Height: 850.0 → 950.0
+2026-06-04 15:56:48,180 - DEBUG - Свойство Upper_Height не найдено или только для чтения
+2026-06-04 15:56:48,367 - DEBUG - Установлено Opening_Height = 2538.0 для блока HeightsForCabs
+2026-06-04 15:56:48,412 - INFO - ✅ Высота увеличена на 100.0 мм
+Изменено блоков: 7
+Пропущено (ChangeHeight=0): Gen5_linear_LED, Gen5_linear_LED, btm_cab_swing, btm_cab_swing, upper_filler, countertop_by, countertop20, btm_cab_dwr, btm_cab_swing, Floor_13mm, Kick_plate
+2026-06-04 15:56:49,662 - INFO - === Обновление спецэлементов ===
+2026-06-04 15:56:51,527 - INFO - Чистые нижние: 2400.0 из ['btm_cab_swing: 643.3', 'btm_cab_swing: 633.3', 'btm_cab_dwr: 513.3', 'btm_cab_swing: 610.0']
+2026-06-04 15:56:53,423 - INFO - Чистые верхние: 2400.0 из ['upper_cab_swing: 643.3', 'Hood_Cyclone_SC51424: 600.0', 'upper_filler: 0.0', 'upper_cab_swing: 513.3', 'upper_cab_swing: 643.3']
+2026-06-04 15:56:55,916 - DEBUG - Установлено upper_filler_w = 2399.999999998999 для блока upper_filler
+2026-06-04 15:56:56,100 - DEBUG - Установлено Recalculated_Width = 2399.999999998999 для блока upper_filler
+2026-06-04 15:56:56,661 - DEBUG - Установлено countertop_w = 2399.9999999989996 для блока countertop20
+2026-06-04 15:56:57,784 - DEBUG - Установлено kickplate_w = 2399.9999999989996 для блока Kick_plate
+2026-06-04 15:56:59,556 - INFO - Найдено динамических блоков: 19
